@@ -1,0 +1,9 @@
+[book]
+authors = ["d1hasib"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Shakespearean Drama"
+
+[output.html.fold]
+enable = true
