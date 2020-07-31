@@ -1,0 +1,838 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>SCENE III - Shakespearean Drama</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../overview.html">Overview</a></li><li class="chapter-item "><a href="../../dream.html"><strong aria-hidden="true">1.</strong> A Midsummer Night's Dream</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act01.html"><strong aria-hidden="true">1.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act01/scene01.html"><strong aria-hidden="true">1.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act01/scene02.html"><strong aria-hidden="true">1.1.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act02.html"><strong aria-hidden="true">1.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act02/scene01.html"><strong aria-hidden="true">1.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act02/scene02.html"><strong aria-hidden="true">1.2.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act03.html"><strong aria-hidden="true">1.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act03/scene01.html"><strong aria-hidden="true">1.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act03/scene02.html"><strong aria-hidden="true">1.3.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act04.html"><strong aria-hidden="true">1.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act04/scene01.html"><strong aria-hidden="true">1.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act04/scene02.html"><strong aria-hidden="true">1.4.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act05.html"><strong aria-hidden="true">1.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act05/scene01.html"><strong aria-hidden="true">1.5.1.</strong> SCENE I</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../macbeth.html"><strong aria-hidden="true">2.</strong> Macbeth</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act01.html"><strong aria-hidden="true">2.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act01/scene01.html"><strong aria-hidden="true">2.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene02.html"><strong aria-hidden="true">2.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene03.html"><strong aria-hidden="true">2.1.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene04.html"><strong aria-hidden="true">2.1.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene05.html"><strong aria-hidden="true">2.1.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene06.html"><strong aria-hidden="true">2.1.6.</strong> SCENE VI</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene07.html"><strong aria-hidden="true">2.1.7.</strong> SCENE VII</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act02.html"><strong aria-hidden="true">2.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act02/scene01.html"><strong aria-hidden="true">2.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act02/scene02.html"><strong aria-hidden="true">2.2.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act02/scene03.html"><strong aria-hidden="true">2.2.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act02/scene04.html"><strong aria-hidden="true">2.2.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act03.html"><strong aria-hidden="true">2.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act03/scene01.html"><strong aria-hidden="true">2.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene02.html"><strong aria-hidden="true">2.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene03.html"><strong aria-hidden="true">2.3.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene04.html"><strong aria-hidden="true">2.3.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene05.html"><strong aria-hidden="true">2.3.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene06.html"><strong aria-hidden="true">2.3.6.</strong> SCENE VI</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act04.html"><strong aria-hidden="true">2.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act04/scene01.html"><strong aria-hidden="true">2.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act04/scene02.html"><strong aria-hidden="true">2.4.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act04/scene03.html"><strong aria-hidden="true">2.4.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act05.html"><strong aria-hidden="true">2.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act05/scene01.html"><strong aria-hidden="true">2.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene02.html"><strong aria-hidden="true">2.5.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene03.html"><strong aria-hidden="true">2.5.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene04.html"><strong aria-hidden="true">2.5.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene05.html"><strong aria-hidden="true">2.5.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene06.html"><strong aria-hidden="true">2.5.6.</strong> SCENE VI</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene07.html"><strong aria-hidden="true">2.5.7.</strong> SCENE VII</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene08.html"><strong aria-hidden="true">2.5.8.</strong> SCENE VIII</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../hamlet.html"><strong aria-hidden="true">3.</strong> Hamlet</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act01.html"><strong aria-hidden="true">3.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act01/scene01.html"><strong aria-hidden="true">3.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act01/scene02.html"><strong aria-hidden="true">3.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../hamlet/act01/scene03.html"><strong aria-hidden="true">3.1.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../hamlet/act01/scene04.html"><strong aria-hidden="true">3.1.4.</strong> SCENE V</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act02.html"><strong aria-hidden="true">3.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act02/scene01.html"><strong aria-hidden="true">3.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act02/scene02.html"><strong aria-hidden="true">3.2.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act03.html"><strong aria-hidden="true">3.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act03/scene01.html"><strong aria-hidden="true">3.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act03/scene02.html"><strong aria-hidden="true">3.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../hamlet/act03/scene03.html"><strong aria-hidden="true">3.3.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../hamlet/act03/scene04.html"><strong aria-hidden="true">3.3.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act04.html"><strong aria-hidden="true">3.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act04/scene01.html"><strong aria-hidden="true">3.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene02.html"><strong aria-hidden="true">3.4.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene03.html"><strong aria-hidden="true">3.4.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene04.html"><strong aria-hidden="true">3.4.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene05.html"><strong aria-hidden="true">3.4.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene06.html"><strong aria-hidden="true">3.4.6.</strong> SCENE VI</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene07.html"><strong aria-hidden="true">3.4.7.</strong> SCENE VII</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act05.html"><strong aria-hidden="true">3.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act05/scene01.html"><strong aria-hidden="true">3.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act05/scene02.html"><strong aria-hidden="true">3.5.2.</strong> SCENE II</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../tempest.html"><strong aria-hidden="true">4.</strong> The Tempest</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act01.html"><strong aria-hidden="true">4.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act01/scene01.html"><strong aria-hidden="true">4.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../tempest/act01/scene02.html"><strong aria-hidden="true">4.1.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act02.html"><strong aria-hidden="true">4.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act02/scene01.html"><strong aria-hidden="true">4.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../tempest/act02/scene02.html"><strong aria-hidden="true">4.2.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act03.html"><strong aria-hidden="true">4.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act03/scene01.html"><strong aria-hidden="true">4.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../tempest/act03/scene02.html"><strong aria-hidden="true">4.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../tempest/act03/scene03.html"><strong aria-hidden="true">4.3.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act04.html"><strong aria-hidden="true">4.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act04/scene01.html"><strong aria-hidden="true">4.4.1.</strong> SCENE I</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act05.html"><strong aria-hidden="true">4.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act05/scene01.html"><strong aria-hidden="true">4.5.1.</strong> SCENE I</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../richard.html"><strong aria-hidden="true">5.</strong> Richard II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../richard/act02.html"><strong aria-hidden="true">5.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act01/scene01.html"><strong aria-hidden="true">5.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act01/scene02.html"><strong aria-hidden="true">5.1.2.</strong> SCENE II</a></li><li class="chapter-item expanded "><a href="../../richard/act01/scene03.html" class="active"><strong aria-hidden="true">5.1.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act01/scene04.html"><strong aria-hidden="true">5.1.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../richard/act02.html"><strong aria-hidden="true">5.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act02/scene01.html"><strong aria-hidden="true">5.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act02/scene02.html"><strong aria-hidden="true">5.2.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act02/scene03.html"><strong aria-hidden="true">5.2.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act02/scene04.html"><strong aria-hidden="true">5.2.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../richard/act03.html"><strong aria-hidden="true">5.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act03/scene01.html"><strong aria-hidden="true">5.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act03/scene02.html"><strong aria-hidden="true">5.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act03/scene03.html"><strong aria-hidden="true">5.3.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act03/scene04.html"><strong aria-hidden="true">5.3.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../richard/act04.html"><strong aria-hidden="true">5.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act04/scene01.html"><strong aria-hidden="true">5.4.1.</strong> SCENE I</a></li></ol></li><li class="chapter-item "><a href="../../richard/act05.html"><strong aria-hidden="true">5.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act05/scene01.html"><strong aria-hidden="true">5.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act05/scene02.html"><strong aria-hidden="true">5.5.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act05/scene03.html"><strong aria-hidden="true">5.5.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act05/scene04.html"><strong aria-hidden="true">5.5.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../richard/act05/scene05.html"><strong aria-hidden="true">5.5.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../richard/act05/scene06.html"><strong aria-hidden="true">5.5.6.</strong> SCENE VI</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../caesar.html"><strong aria-hidden="true">6.</strong> Julius Caesar</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act01.html"><strong aria-hidden="true">6.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act01/scene01.html"><strong aria-hidden="true">6.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act01/scene02.html"><strong aria-hidden="true">6.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act01/scene03.html"><strong aria-hidden="true">6.1.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act02.html"><strong aria-hidden="true">6.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act02/scene01.html"><strong aria-hidden="true">6.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act02/scene02.html"><strong aria-hidden="true">6.2.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act02/scene03.html"><strong aria-hidden="true">6.2.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../caesar/act02/scene04.html"><strong aria-hidden="true">6.2.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act03.html"><strong aria-hidden="true">6.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act03/scene01.html"><strong aria-hidden="true">6.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act03/scene02.html"><strong aria-hidden="true">6.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act03/scene03.html"><strong aria-hidden="true">6.3.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act04.html"><strong aria-hidden="true">6.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act04/scene01.html"><strong aria-hidden="true">6.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act04/scene02.html"><strong aria-hidden="true">6.4.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act04/scene03.html"><strong aria-hidden="true">6.4.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act05.html"><strong aria-hidden="true">6.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act05/scene01.html"><strong aria-hidden="true">6.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act05/scene02.html"><strong aria-hidden="true">6.5.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act05/scene03.html"><strong aria-hidden="true">6.5.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../caesar/act05/scene04.html"><strong aria-hidden="true">6.5.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../caesar/act05/scene05.html"><strong aria-hidden="true">6.5.5.</strong> SCENE V</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Shakespearean Drama</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2><a class="header" href="#scene-iii" id="scene-iii">SCENE III</a></h2>
+<h3><a class="header" href="#the-lists-at-coventry" id="the-lists-at-coventry">The lists at Coventry.</a></h3>
+<blockquote>
+<p><em>Enter the Lord Marshal and the DUKE OF AUMERLE</em></p>
+</blockquote>
+<p><span id="speech1"><strong>Lord Marshal</strong></span></p>
+<blockquote>
+<p><span id="1.3.1">My Lord Aumerle, is Harry Hereford arm'd?</span></p>
+</blockquote>
+<p><span id="speech2"><strong>DUKE OF AUMERLE</strong></span></p>
+<blockquote>
+<p><span id="1.3.2">Yea, at all points; and longs to enter in.</span></p>
+</blockquote>
+<p><span id="speech3"><strong>Lord Marshal</strong></span></p>
+<blockquote>
+<p><span id="1.3.3">The Duke of Norfolk, sprightfully and bold,</span><br />
+<span id="1.3.4">Stays but the summons of the appellant's
+trumpet.</span></p>
+</blockquote>
+<p><span id="speech4"><strong>DUKE OF AUMERLE</strong></span></p>
+<blockquote>
+<p><span id="1.3.5">Why, then, the champions are prepared, and
+stay</span><br />
+<span id="1.3.6">For nothing but his majesty's approach.</span></p>
+<p><em>The trumpets sound, and KING RICHARD enters with his nobles, JOHN OF
+GAUNT, BUSHY, BAGOT, GREEN, and others. When they are set, enter
+THOMAS MOWBRAY in arms, defendant, with a Herald</em></p>
+</blockquote>
+<p><span id="speech5"><strong>KING RICHARD II</strong></span></p>
+<blockquote>
+<p><span id="1.3.7">Marshal, demand of yonder champion</span><br />
+<span id="1.3.8">The cause of his arrival here in arms:</span><br />
+<span id="1.3.9">Ask him his name and orderly proceed</span><br />
+<span id="1.3.10">To swear him in the justice of his cause.</span></p>
+</blockquote>
+<p><span id="speech6"><strong>Lord Marshal</strong></span></p>
+<blockquote>
+<p><span id="1.3.11">In God's name and the king's, say who thou
+art</span><br />
+<span id="1.3.12">And why thou comest thus knightly clad in
+arms,</span><br />
+<span id="1.3.13">Against what man thou comest, and what thy
+quarrel:</span><br />
+<span id="1.3.14">Speak truly, on thy knighthood and thy
+oath;</span><br />
+<span id="1.3.15">As so defend thee heaven and thy valour!</span></p>
+</blockquote>
+<p><span id="speech7"><strong>THOMAS MOWBRAY</strong></span></p>
+<blockquote>
+<p><span id="1.3.16">My name is Thomas Mowbray, Duke of Norfolk;</span><br />
+<span id="1.3.17">Who hither come engaged by my oath--</span><br />
+<span id="1.3.18">Which God defend a knight should violate!--</span><br />
+<span id="1.3.19">Both to defend my loyalty and truth</span><br />
+<span id="1.3.20">To God, my king and my succeeding issue,</span><br />
+<span id="1.3.21">Against the Duke of Hereford that appeals
+me</span><br />
+<span id="1.3.22">And, by the grace of God and this mine arm,</span><br />
+<span id="1.3.23">To prove him, in defending of myself,</span><br />
+<span id="1.3.24">A traitor to my God, my king, and me:</span><br />
+<span id="1.3.25">And as I truly fight, defend me heaven!</span></p>
+<p><em>The trumpets sound. Enter HENRY BOLINGBROKE, appellant, in armour,
+with a Herald</em></p>
+</blockquote>
+<p><span id="speech8"><strong>KING RICHARD II</strong></span></p>
+<blockquote>
+<p><span id="1.3.26">Marshal, ask yonder knight in arms,</span><br />
+<span id="1.3.27">Both who he is and why he cometh hither</span><br />
+<span id="1.3.28">Thus plated in habiliments of war,</span><br />
+<span id="1.3.29">And formally, according to our law,</span><br />
+<span id="1.3.30">Depose him in the justice of his cause.</span></p>
+</blockquote>
+<p><span id="speech9"><strong>Lord Marshal</strong></span></p>
+<blockquote>
+<p><span id="1.3.31">What is thy name? and wherefore comest thou
+hither,</span><br />
+<span id="1.3.32">Before King Richard in his royal lists?</span><br />
+<span id="1.3.33">Against whom comest thou? and what's thy
+quarrel?</span><br />
+<span id="1.3.34">Speak like a true knight, so defend thee
+heaven!</span></p>
+</blockquote>
+<p><span id="speech10"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.35">Harry of Hereford, Lancaster and Derby</span><br />
+<span id="1.3.36">Am I; who ready here do stand in arms,</span><br />
+<span id="1.3.37">To prove, by God's grace and my body's
+valour,</span><br />
+<span id="1.3.38">In lists, on Thomas Mowbray, Duke of
+Norfolk,</span><br />
+<span id="1.3.39">That he is a traitor, foul and dangerous,</span><br />
+<span id="1.3.40">To God of heaven, King Richard and to me;</span><br />
+<span id="1.3.41">And as I truly fight, defend me heaven!</span></p>
+</blockquote>
+<p><span id="speech11"><strong>Lord Marshal</strong></span></p>
+<blockquote>
+<p><span id="1.3.42">On pain of death, no person be so bold</span><br />
+<span id="1.3.43">Or daring-hardy as to touch the lists,</span><br />
+<span id="1.3.44">Except the marshal and such officers</span><br />
+<span id="1.3.45">Appointed to direct these fair designs.</span></p>
+</blockquote>
+<p><span id="speech12"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.46">Lord marshal, let me kiss my sovereign's
+hand,</span><br />
+<span id="1.3.47">And bow my knee before his majesty:</span><br />
+<span id="1.3.48">For Mowbray and myself are like two men</span><br />
+<span id="1.3.49">That vow a long and weary pilgrimage;</span><br />
+<span id="1.3.50">Then let us take a ceremonious leave</span><br />
+<span id="1.3.51">And loving farewell of our several friends.</span></p>
+</blockquote>
+<p><span id="speech13"><strong>Lord Marshal</strong></span></p>
+<blockquote>
+<p><span id="1.3.52">The appellant in all duty greets your
+highness,</span><br />
+<span id="1.3.53">And craves to kiss your hand and take his
+leave.</span></p>
+</blockquote>
+<p><span id="speech14"><strong>KING RICHARD II</strong></span></p>
+<blockquote>
+<p><span id="1.3.54">We will descend and fold him in our arms.</span><br />
+<span id="1.3.55">Cousin of Hereford, as thy cause is right,</span><br />
+<span id="1.3.56">So be thy fortune in this royal fight!</span><br />
+<span id="1.3.57">Farewell, my blood; which if to-day thou
+shed,</span><br />
+<span id="1.3.58">Lament we may, but not revenge thee dead.</span></p>
+</blockquote>
+<p><span id="speech15"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.59">O let no noble eye profane a tear</span><br />
+<span id="1.3.60">For me, if I be gored with Mowbray's spear:</span><br />
+<span id="1.3.61">As confident as is the falcon's flight</span><br />
+<span id="1.3.62">Against a bird, do I with Mowbray fight.</span><br />
+<span id="1.3.63">My loving lord, I take my leave of you;</span><br />
+<span id="1.3.64">Of you, my noble cousin, Lord Aumerle;</span><br />
+<span id="1.3.65">Not sick, although I have to do with death,</span><br />
+<span id="1.3.66">But lusty, young, and cheerly drawing
+breath.</span><br />
+<span id="1.3.67">Lo, as at English feasts, so I regreet</span><br />
+<span id="1.3.68">The daintiest last, to make the end most
+sweet:</span><br />
+<span id="1.3.69">O thou, the earthly author of my blood,</span><br />
+<span id="1.3.70">Whose youthful spirit, in me regenerate,</span><br />
+<span id="1.3.71">Doth with a twofold vigour lift me up</span><br />
+<span id="1.3.72">To reach at victory above my head,</span><br />
+<span id="1.3.73">Add proof unto mine armour with thy
+prayers;</span><br />
+<span id="1.3.74">And with thy blessings steel my lance's
+point,</span><br />
+<span id="1.3.75">That it may enter Mowbray's waxen coat,</span><br />
+<span id="1.3.76">And furbish new the name of John a Gaunt,</span><br />
+<span id="1.3.77">Even in the lusty havior of his son.</span></p>
+</blockquote>
+<p><span id="speech16"><strong>JOHN OF GAUNT</strong></span></p>
+<blockquote>
+<p><span id="1.3.78">God in thy good cause make thee prosperous!</span><br />
+<span id="1.3.79">Be swift like lightning in the execution;</span><br />
+<span id="1.3.80">And let thy blows, doubly redoubled,</span><br />
+<span id="1.3.81">Fall like amazing thunder on the casque</span><br />
+<span id="1.3.82">Of thy adverse pernicious enemy:</span><br />
+<span id="1.3.83">Rouse up thy youthful blood, be valiant and
+live.</span></p>
+</blockquote>
+<p><span id="speech17"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.84">Mine innocency and Saint George to thrive!</span></p>
+</blockquote>
+<p><span id="speech18"><strong>THOMAS MOWBRAY</strong></span></p>
+<blockquote>
+<p><span id="1.3.85">However God or fortune cast my lot,</span><br />
+<span id="1.3.86">There lives or dies, true to King Richard's
+throne,</span><br />
+<span id="1.3.87">A loyal, just and upright gentleman:</span><br />
+<span id="1.3.88">Never did captive with a freer heart</span><br />
+<span id="1.3.89">Cast off his chains of bondage and embrace</span><br />
+<span id="1.3.90">His golden uncontroll'd enfranchisement,</span><br />
+<span id="1.3.91">More than my dancing soul doth celebrate</span><br />
+<span id="1.3.92">This feast of battle with mine adversary.</span><br />
+<span id="1.3.93">Most mighty liege, and my companion peers,</span><br />
+<span id="1.3.94">Take from my mouth the wish of happy years:</span><br />
+<span id="1.3.95">As gentle and as jocund as to jest</span><br />
+<span id="1.3.96">Go I to fight: truth hath a quiet breast.</span></p>
+</blockquote>
+<p><span id="speech19"><strong>KING RICHARD II</strong></span></p>
+<blockquote>
+<p><span id="1.3.97">Farewell, my lord: securely I espy</span><br />
+<span id="1.3.98">Virtue with valour couched in thine eye.</span><br />
+<span id="1.3.99">Order the trial, marshal, and begin.</span></p>
+</blockquote>
+<p><span id="speech20"><strong>Lord Marshal</strong></span></p>
+<blockquote>
+<p><span id="1.3.100">Harry of Hereford, Lancaster and Derby,</span><br />
+<span id="1.3.101">Receive thy lance; and God defend the
+right!</span></p>
+</blockquote>
+<p><span id="speech21"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.102">Strong as a tower in hope, I cry amen.</span></p>
+</blockquote>
+<p><span id="speech22"><strong>Lord Marshal</strong></span></p>
+<blockquote>
+<p><span id="1.3.103">Go bear this lance to Thomas, Duke of
+Norfolk.</span></p>
+</blockquote>
+<p><span id="speech23"><strong>First Herald</strong></span></p>
+<blockquote>
+<p><span id="1.3.104">Harry of Hereford, Lancaster and Derby,</span><br />
+<span id="1.3.105">Stands here for God, his sovereign and
+himself,</span><br />
+<span id="1.3.106">On pain to be found false and recreant,</span><br />
+<span id="1.3.107">To prove the Duke of Norfolk, Thomas
+Mowbray,</span><br />
+<span id="1.3.108">A traitor to his God, his king and him;</span><br />
+<span id="1.3.109">And dares him to set forward to the fight.</span></p>
+</blockquote>
+<p><span id="speech24"><strong>Second Herald</strong></span></p>
+<blockquote>
+<p><span id="1.3.110">Here standeth Thomas Mowbray, Duke of
+Norfolk,</span><br />
+<span id="1.3.111">On pain to be found false and recreant,</span><br />
+<span id="1.3.112">Both to defend himself and to approve</span><br />
+<span id="1.3.113">Henry of Hereford, Lancaster, and Derby,</span><br />
+<span id="1.3.114">To God, his sovereign and to him disloyal;</span><br />
+<span id="1.3.115">Courageously and with a free desire</span><br />
+<span id="1.3.116">Attending but the signal to begin.</span></p>
+</blockquote>
+<p><span id="speech25"><strong>Lord Marshal</strong></span></p>
+<blockquote>
+<p><span id="1.3.117">Sound, trumpets; and set forward,
+combatants.</span></p>
+<p><em>A charge sounded</em></p>
+<p><span id="1.3.118">Stay, the king hath thrown his warder
+down.</span></p>
+</blockquote>
+<p><span id="speech26"><strong>KING RICHARD II</strong></span></p>
+<blockquote>
+<p><span id="1.3.119">Let them lay by their helmets and their
+spears,</span><br />
+<span id="1.3.120">And both return back to their chairs
+again:</span><br />
+<span id="1.3.121">Withdraw with us: and let the trumpets
+sound</span><br />
+<span id="1.3.122">While we return these dukes what we
+decree.</span></p>
+<p><em>A long flourish</em></p>
+<p><span id="1.3.123">Draw near,</span><br />
+<span id="1.3.124">And list what with our council we have
+done.</span><br />
+<span id="1.3.125">For that our kingdom's earth should not be
+soil'd</span><br />
+<span id="1.3.126">With that dear blood which it hath
+fostered;</span><br />
+<span id="1.3.127">And for our eyes do hate the dire aspect</span><br />
+<span id="1.3.128">Of civil wounds plough'd up with neighbours'
+sword;</span><br />
+<span id="1.3.129">And for we think the eagle-winged pride</span><br />
+<span id="1.3.130">Of sky-aspiring and ambitious thoughts,</span><br />
+<span id="1.3.131">With rival-hating envy, set on you</span><br />
+<span id="1.3.132">To wake our peace, which in our country's
+cradle</span><br />
+<span id="1.3.133">Draws the sweet infant breath of gentle
+sleep;</span><br />
+<span id="1.3.134">Which so roused up with boisterous untuned
+drums,</span><br />
+<span id="1.3.135">With harsh resounding trumpets' dreadful
+bray,</span><br />
+<span id="1.3.136">And grating shock of wrathful iron arms,</span><br />
+<span id="1.3.137">Might from our quiet confines fright fair
+peace</span><br />
+<span id="1.3.138">And make us wade even in our kindred's
+blood,</span><br />
+<span id="1.3.139">Therefore, we banish you our territories:</span><br />
+<span id="1.3.140">You, cousin Hereford, upon pain of life,</span><br />
+<span id="1.3.141">Till twice five summers have enrich'd our
+fields</span><br />
+<span id="1.3.142">Shall not regreet our fair dominions,</span><br />
+<span id="1.3.143">But tread the stranger paths of
+banishment.</span></p>
+</blockquote>
+<p><span id="speech27"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.144">Your will be done: this must my comfort
+be,</span><br />
+<span id="1.3.145">Sun that warms you here shall shine on me;</span><br />
+<span id="1.3.146">And those his golden beams to you here
+lent</span><br />
+<span id="1.3.147">Shall point on me and gild my banishment.</span></p>
+</blockquote>
+<p><span id="speech28"><strong>KING RICHARD II</strong></span></p>
+<blockquote>
+<p><span id="1.3.148">Norfolk, for thee remains a heavier doom,</span><br />
+<span id="1.3.149">Which I with some unwillingness pronounce:</span><br />
+<span id="1.3.150">The sly slow hours shall not determinate</span><br />
+<span id="1.3.151">The dateless limit of thy dear exile;</span><br />
+<span id="1.3.152">The hopeless word of 'never to return'</span><br />
+<span id="1.3.153">Breathe I against thee, upon pain of life.</span></p>
+</blockquote>
+<p><span id="speech29"><strong>THOMAS MOWBRAY</strong></span></p>
+<blockquote>
+<p><span id="1.3.154">A heavy sentence, my most sovereign liege,</span><br />
+<span id="1.3.155">And all unlook'd for from your highness'
+mouth:</span><br />
+<span id="1.3.156">A dearer merit, not so deep a maim</span><br />
+<span id="1.3.157">As to be cast forth in the common air,</span><br />
+<span id="1.3.158">Have I deserved at your highness' hands.</span><br />
+<span id="1.3.159">The language I have learn'd these forty
+years,</span><br />
+<span id="1.3.160">My native English, now I must forego:</span><br />
+<span id="1.3.161">And now my tongue's use is to me no more</span><br />
+<span id="1.3.162">Than an unstringed viol or a harp,</span><br />
+<span id="1.3.163">Or like a cunning instrument cased up,</span><br />
+<span id="1.3.164">Or, being open, put into his hands</span><br />
+<span id="1.3.165">That knows no touch to tune the harmony:</span><br />
+<span id="1.3.166">Within my mouth you have engaol'd my
+tongue,</span><br />
+<span id="1.3.167">Doubly portcullis'd with my teeth and
+lips;</span><br />
+<span id="1.3.168">And dull unfeeling barren ignorance</span><br />
+<span id="1.3.169">Is made my gaoler to attend on me.</span><br />
+<span id="1.3.170">I am too old to fawn upon a nurse,</span><br />
+<span id="1.3.171">Too far in years to be a pupil now:</span><br />
+<span id="1.3.172">What is thy sentence then but speechless
+death,</span><br />
+<span id="1.3.173">Which robs my tongue from breathing native
+breath?</span></p>
+</blockquote>
+<p><span id="speech30"><strong>KING RICHARD II</strong></span></p>
+<blockquote>
+<p><span id="1.3.174">It boots thee not to be compassionate:</span><br />
+<span id="1.3.175">After our sentence plaining comes too
+late.</span></p>
+</blockquote>
+<p><span id="speech31"><strong>THOMAS MOWBRAY</strong></span></p>
+<blockquote>
+<p><span id="1.3.176">Then thus I turn me from my country's
+light,</span><br />
+<span id="1.3.177">To dwell in solemn shades of endless
+night.</span></p>
+</blockquote>
+<p><span id="speech32"><strong>KING RICHARD II</strong></span></p>
+<blockquote>
+<p><span id="1.3.178">Return again, and take an oath with thee.</span><br />
+<span id="1.3.179">Lay on our royal sword your banish'd
+hands;</span><br />
+<span id="1.3.180">Swear by the duty that you owe to God--</span><br />
+<span id="1.3.181">Our part therein we banish with
+yourselves--</span><br />
+<span id="1.3.182">To keep the oath that we administer:</span><br />
+<span id="1.3.183">You never shall, so help you truth and
+God!</span><br />
+<span id="1.3.184">Embrace each other's love in banishment;</span><br />
+<span id="1.3.185">Nor never look upon each other's face;</span><br />
+<span id="1.3.186">Nor never write, regreet, nor reconcile</span><br />
+<span id="1.3.187">This louring tempest of your home-bred
+hate;</span><br />
+<span id="1.3.188">Nor never by advised purpose meet</span><br />
+<span id="1.3.189">To plot, contrive, or complot any ill</span><br />
+<span id="1.3.190">'Gainst us, our state, our subjects, or our
+land.</span></p>
+</blockquote>
+<p><span id="speech33"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.191">I swear.</span></p>
+</blockquote>
+<p><span id="speech34"><strong>THOMAS MOWBRAY</strong></span></p>
+<blockquote>
+<p><span id="1.3.192">And I, to keep all this.</span></p>
+</blockquote>
+<p><span id="speech35"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.193">Norfolk, so far as to mine enemy:--</span><br />
+<span id="1.3.194">By this time, had the king permitted us,</span><br />
+<span id="1.3.195">One of our souls had wander'd in the air.</span><br />
+<span id="1.3.196">Banish'd this frail sepulchre of our
+flesh,</span><br />
+<span id="1.3.197">As now our flesh is banish'd from this
+land:</span><br />
+<span id="1.3.198">Confess thy treasons ere thou fly the
+realm;</span><br />
+<span id="1.3.199">Since thou hast far to go, bear not along</span><br />
+<span id="1.3.200">The clogging burthen of a guilty soul.</span></p>
+</blockquote>
+<p><span id="speech36"><strong>THOMAS MOWBRAY</strong></span></p>
+<blockquote>
+<p><span id="1.3.201">No, Bolingbroke: if ever I were traitor,</span><br />
+<span id="1.3.202">My name be blotted from the book of life,</span><br />
+<span id="1.3.203">And I from heaven banish'd as from hence!</span><br />
+<span id="1.3.204">But what thou art, God, thou, and I do
+know;</span><br />
+<span id="1.3.205">And all too soon, I fear, the king shall
+rue.</span><br />
+<span id="1.3.206">Farewell, my liege. Now no way can I
+stray;</span><br />
+<span id="1.3.207">Save back to England, all the world's my
+way.</span></p>
+<p><em>Exit</em></p>
+</blockquote>
+<p><span id="speech37"><strong>KING RICHARD II</strong></span></p>
+<blockquote>
+<p><span id="1.3.208">Uncle, even in the glasses of thine eyes</span><br />
+<span id="1.3.209">I see thy grieved heart: thy sad aspect</span><br />
+<span id="1.3.210">Hath from the number of his banish'd years</span><br />
+<span id="1.3.211">Pluck'd four away.</span></p>
+<p><em>To HENRY BOLINGBROKE</em></p>
+<p><span id="1.3.212">Six frozen winter spent,</span><br />
+<span id="1.3.213">Return with welcome home from banishment.</span></p>
+</blockquote>
+<p><span id="speech38"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.214">How long a time lies in one little word!</span><br />
+<span id="1.3.215">Four lagging winters and four wanton
+springs</span><br />
+<span id="1.3.216">End in a word: such is the breath of
+kings.</span></p>
+</blockquote>
+<p><span id="speech39"><strong>JOHN OF GAUNT</strong></span></p>
+<blockquote>
+<p><span id="1.3.217">I thank my liege, that in regard of me</span><br />
+<span id="1.3.218">He shortens four years of my son's exile:</span><br />
+<span id="1.3.219">But little vantage shall I reap thereby;</span><br />
+<span id="1.3.220">For, ere the six years that he hath to
+spend</span><br />
+<span id="1.3.221">Can change their moons and bring their times
+about</span><br />
+<span id="1.3.222">My oil-dried lamp and time-bewasted light</span><br />
+<span id="1.3.223">Shall be extinct with age and endless
+night;</span><br />
+<span id="1.3.224">My inch of taper will be burnt and done,</span><br />
+<span id="1.3.225">And blindfold death not let me see my son.</span></p>
+</blockquote>
+<p><span id="speech40"><strong>KING RICHARD II</strong></span></p>
+<blockquote>
+<p><span id="1.3.226">Why uncle, thou hast many years to live.</span></p>
+</blockquote>
+<p><span id="speech41"><strong>JOHN OF GAUNT</strong></span></p>
+<blockquote>
+<p><span id="1.3.227">But not a minute, king, that thou canst
+give:</span><br />
+<span id="1.3.228">Shorten my days thou canst with sullen
+sorrow,</span><br />
+<span id="1.3.229">And pluck nights from me, but not lend a
+morrow;</span><br />
+<span id="1.3.230">Thou canst help time to furrow me with
+age,</span><br />
+<span id="1.3.231">But stop no wrinkle in his pilgrimage;</span><br />
+<span id="1.3.232">Thy word is current with him for my death,</span><br />
+<span id="1.3.233">But dead, thy kingdom cannot buy my
+breath.</span></p>
+</blockquote>
+<p><span id="speech42"><strong>KING RICHARD II</strong></span></p>
+<blockquote>
+<p><span id="1.3.234">Thy son is banish'd upon good advice,</span><br />
+<span id="1.3.235">Whereto thy tongue a party-verdict gave:</span><br />
+<span id="1.3.236">Why at our justice seem'st thou then to
+lour?</span></p>
+</blockquote>
+<p><span id="speech43"><strong>JOHN OF GAUNT</strong></span></p>
+<blockquote>
+<p><span id="1.3.237">Things sweet to taste prove in digestion
+sour.</span><br />
+<span id="1.3.238">You urged me as a judge; but I had rather</span><br />
+<span id="1.3.239">You would have bid me argue like a father.</span><br />
+<span id="1.3.240">O, had it been a stranger, not my child,</span><br />
+<span id="1.3.241">To smooth his fault I should have been more
+mild:</span><br />
+<span id="1.3.242">A partial slander sought I to avoid,</span><br />
+<span id="1.3.243">And in the sentence my own life destroy'd.</span><br />
+<span id="1.3.244">Alas, I look'd when some of you should
+say,</span><br />
+<span id="1.3.245">I was too strict to make mine own away;</span><br />
+<span id="1.3.246">But you gave leave to my unwilling tongue</span><br />
+<span id="1.3.247">Against my will to do myself this wrong.</span></p>
+</blockquote>
+<p><span id="speech44"><strong>KING RICHARD II</strong></span></p>
+<blockquote>
+<p><span id="1.3.248">Cousin, farewell; and, uncle, bid him so:</span><br />
+<span id="1.3.249">Six years we banish him, and he shall go.</span></p>
+<p><em>Flourish. Exeunt KING RICHARD II and train</em></p>
+</blockquote>
+<p><span id="speech45"><strong>DUKE OF AUMERLE</strong></span></p>
+<blockquote>
+<p><span id="1.3.250">Cousin, farewell: what presence must not
+know,</span><br />
+<span id="1.3.251">From where you do remain let paper show.</span></p>
+</blockquote>
+<p><span id="speech46"><strong>Lord Marshal</strong></span></p>
+<blockquote>
+<p><span id="1.3.252">My lord, no leave take I; for I will ride,</span><br />
+<span id="1.3.253">As far as land will let me, by your side.</span></p>
+</blockquote>
+<p><span id="speech47"><strong>JOHN OF GAUNT</strong></span></p>
+<blockquote>
+<p><span id="1.3.254">O, to what purpose dost thou hoard thy
+words,</span><br />
+<span id="1.3.255">That thou return'st no greeting to thy
+friends?</span></p>
+</blockquote>
+<p><span id="speech48"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.256">I have too few to take my leave of you,</span><br />
+<span id="1.3.257">When the tongue's office should be
+prodigal</span><br />
+<span id="1.3.258">To breathe the abundant dolour of the
+heart.</span></p>
+</blockquote>
+<p><span id="speech49"><strong>JOHN OF GAUNT</strong></span></p>
+<blockquote>
+<p><span id="1.3.259">Thy grief is but thy absence for a time.</span></p>
+</blockquote>
+<p><span id="speech50"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.260">Joy absent, grief is present for that
+time.</span></p>
+</blockquote>
+<p><span id="speech51"><strong>JOHN OF GAUNT</strong></span></p>
+<blockquote>
+<p><span id="1.3.261">What is six winters? they are quickly
+gone.</span></p>
+</blockquote>
+<p><span id="speech52"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.262">To men in joy; but grief makes one hour
+ten.</span></p>
+</blockquote>
+<p><span id="speech53"><strong>JOHN OF GAUNT</strong></span></p>
+<blockquote>
+<p><span id="1.3.263">Call it a travel that thou takest for
+pleasure.</span></p>
+</blockquote>
+<p><span id="speech54"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.264">My heart will sigh when I miscall it so,</span><br />
+<span id="1.3.265">Which finds it an inforced pilgrimage.</span></p>
+</blockquote>
+<p><span id="speech55"><strong>JOHN OF GAUNT</strong></span></p>
+<blockquote>
+<p><span id="1.3.266">The sullen passage of thy weary steps</span><br />
+<span id="1.3.267">Esteem as foil wherein thou art to set</span><br />
+<span id="1.3.268">The precious jewel of thy home return.</span></p>
+</blockquote>
+<p><span id="speech56"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.269">Nay, rather, every tedious stride I make</span><br />
+<span id="1.3.270">Will but remember me what a deal of world</span><br />
+<span id="1.3.271">I wander from the jewels that I love.</span><br />
+<span id="1.3.272">Must I not serve a long apprenticehood</span><br />
+<span id="1.3.273">To foreign passages, and in the end,</span><br />
+<span id="1.3.274">Having my freedom, boast of nothing else</span><br />
+<span id="1.3.275">But that I was a journeyman to grief?</span></p>
+</blockquote>
+<p><span id="speech57"><strong>JOHN OF GAUNT</strong></span></p>
+<blockquote>
+<p><span id="1.3.276">All places that the eye of heaven visits</span><br />
+<span id="1.3.277">Are to a wise man ports and happy havens.</span><br />
+<span id="1.3.278">Teach thy necessity to reason thus;</span><br />
+<span id="1.3.279">There is no virtue like necessity.</span><br />
+<span id="1.3.280">Think not the king did banish thee,</span><br />
+<span id="1.3.281">But thou the king. Woe doth the heavier
+sit,</span><br />
+<span id="1.3.282">Where it perceives it is but faintly
+borne.</span><br />
+<span id="1.3.283">Go, say I sent thee forth to purchase
+honour</span><br />
+<span id="1.3.284">And not the king exiled thee; or suppose</span><br />
+<span id="1.3.285">Devouring pestilence hangs in our air</span><br />
+<span id="1.3.286">And thou art flying to a fresher clime:</span><br />
+<span id="1.3.287">Look, what thy soul holds dear, imagine it</span><br />
+<span id="1.3.288">To lie that way thou go'st, not whence thou
+comest:</span><br />
+<span id="1.3.289">Suppose the singing birds musicians,</span><br />
+<span id="1.3.290">The grass whereon thou tread'st the presence
+strew'd,</span><br />
+<span id="1.3.291">The flowers fair ladies, and thy steps no
+more</span><br />
+<span id="1.3.292">Than a delightful measure or a dance;</span><br />
+<span id="1.3.293">For gnarling sorrow hath less power to
+bite</span><br />
+<span id="1.3.294">The man that mocks at it and sets it
+light.</span></p>
+</blockquote>
+<p><span id="speech58"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.295">O, who can hold a fire in his hand</span><br />
+<span id="1.3.296">By thinking on the frosty Caucasus?</span><br />
+<span id="1.3.297">Or cloy the hungry edge of appetite</span><br />
+<span id="1.3.298">By bare imagination of a feast?</span><br />
+<span id="1.3.299">Or wallow naked in December snow</span><br />
+<span id="1.3.300">By thinking on fantastic summer's heat?</span><br />
+<span id="1.3.301">O, no! the apprehension of the good</span><br />
+<span id="1.3.302">Gives but the greater feeling to the
+worse:</span><br />
+<span id="1.3.303">Fell sorrow's tooth doth never rankle more</span><br />
+<span id="1.3.304">Than when he bites, but lanceth not the
+sore.</span></p>
+</blockquote>
+<p><span id="speech59"><strong>JOHN OF GAUNT</strong></span></p>
+<blockquote>
+<p><span id="1.3.305">Come, come, my son, I'll bring thee on thy
+way:</span><br />
+<span id="1.3.306">Had I thy youth and cause, I would not
+stay.</span></p>
+</blockquote>
+<p><span id="speech60"><strong>HENRY BOLINGBROKE</strong></span></p>
+<blockquote>
+<p><span id="1.3.307">Then, England's ground, farewell; sweet soil,
+adieu;</span><br />
+<span id="1.3.308">My mother, and my nurse, that bears me
+yet!</span><br />
+<span id="1.3.309">Where'er I wander, boast of this I can,</span><br />
+<span id="1.3.310">Though banish'd, yet a trueborn
+Englishman.</span></p>
+<p><em>Exeunt</em></p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../richard/act01/scene02.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../richard/act01/scene04.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../richard/act01/scene02.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../richard/act01/scene04.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

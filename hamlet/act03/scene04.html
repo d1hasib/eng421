@@ -1,0 +1,729 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>SCENE IV - Shakespearean Drama</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../overview.html">Overview</a></li><li class="chapter-item "><a href="../../dream.html"><strong aria-hidden="true">1.</strong> A Midsummer Night's Dream</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act01.html"><strong aria-hidden="true">1.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act01/scene01.html"><strong aria-hidden="true">1.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act01/scene02.html"><strong aria-hidden="true">1.1.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act02.html"><strong aria-hidden="true">1.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act02/scene01.html"><strong aria-hidden="true">1.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act02/scene02.html"><strong aria-hidden="true">1.2.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act03.html"><strong aria-hidden="true">1.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act03/scene01.html"><strong aria-hidden="true">1.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act03/scene02.html"><strong aria-hidden="true">1.3.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act04.html"><strong aria-hidden="true">1.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act04/scene01.html"><strong aria-hidden="true">1.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act04/scene02.html"><strong aria-hidden="true">1.4.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act05.html"><strong aria-hidden="true">1.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act05/scene01.html"><strong aria-hidden="true">1.5.1.</strong> SCENE I</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../macbeth.html"><strong aria-hidden="true">2.</strong> Macbeth</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act01.html"><strong aria-hidden="true">2.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act01/scene01.html"><strong aria-hidden="true">2.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene02.html"><strong aria-hidden="true">2.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene03.html"><strong aria-hidden="true">2.1.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene04.html"><strong aria-hidden="true">2.1.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene05.html"><strong aria-hidden="true">2.1.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene06.html"><strong aria-hidden="true">2.1.6.</strong> SCENE VI</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene07.html"><strong aria-hidden="true">2.1.7.</strong> SCENE VII</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act02.html"><strong aria-hidden="true">2.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act02/scene01.html"><strong aria-hidden="true">2.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act02/scene02.html"><strong aria-hidden="true">2.2.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act02/scene03.html"><strong aria-hidden="true">2.2.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act02/scene04.html"><strong aria-hidden="true">2.2.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act03.html"><strong aria-hidden="true">2.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act03/scene01.html"><strong aria-hidden="true">2.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene02.html"><strong aria-hidden="true">2.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene03.html"><strong aria-hidden="true">2.3.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene04.html"><strong aria-hidden="true">2.3.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene05.html"><strong aria-hidden="true">2.3.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene06.html"><strong aria-hidden="true">2.3.6.</strong> SCENE VI</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act04.html"><strong aria-hidden="true">2.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act04/scene01.html"><strong aria-hidden="true">2.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act04/scene02.html"><strong aria-hidden="true">2.4.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act04/scene03.html"><strong aria-hidden="true">2.4.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act05.html"><strong aria-hidden="true">2.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act05/scene01.html"><strong aria-hidden="true">2.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene02.html"><strong aria-hidden="true">2.5.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene03.html"><strong aria-hidden="true">2.5.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene04.html"><strong aria-hidden="true">2.5.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene05.html"><strong aria-hidden="true">2.5.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene06.html"><strong aria-hidden="true">2.5.6.</strong> SCENE VI</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene07.html"><strong aria-hidden="true">2.5.7.</strong> SCENE VII</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene08.html"><strong aria-hidden="true">2.5.8.</strong> SCENE VIII</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../hamlet.html"><strong aria-hidden="true">3.</strong> Hamlet</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act01.html"><strong aria-hidden="true">3.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act01/scene01.html"><strong aria-hidden="true">3.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act01/scene02.html"><strong aria-hidden="true">3.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../hamlet/act01/scene03.html"><strong aria-hidden="true">3.1.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../hamlet/act01/scene04.html"><strong aria-hidden="true">3.1.4.</strong> SCENE V</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act02.html"><strong aria-hidden="true">3.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act02/scene01.html"><strong aria-hidden="true">3.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act02/scene02.html"><strong aria-hidden="true">3.2.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item expanded "><a href="../../hamlet/act03.html"><strong aria-hidden="true">3.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act03/scene01.html"><strong aria-hidden="true">3.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act03/scene02.html"><strong aria-hidden="true">3.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../hamlet/act03/scene03.html"><strong aria-hidden="true">3.3.3.</strong> SCENE III</a></li><li class="chapter-item expanded "><a href="../../hamlet/act03/scene04.html" class="active"><strong aria-hidden="true">3.3.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act04.html"><strong aria-hidden="true">3.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act04/scene01.html"><strong aria-hidden="true">3.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene02.html"><strong aria-hidden="true">3.4.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene03.html"><strong aria-hidden="true">3.4.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene04.html"><strong aria-hidden="true">3.4.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene05.html"><strong aria-hidden="true">3.4.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene06.html"><strong aria-hidden="true">3.4.6.</strong> SCENE VI</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene07.html"><strong aria-hidden="true">3.4.7.</strong> SCENE VII</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act05.html"><strong aria-hidden="true">3.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act05/scene01.html"><strong aria-hidden="true">3.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act05/scene02.html"><strong aria-hidden="true">3.5.2.</strong> SCENE II</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../tempest.html"><strong aria-hidden="true">4.</strong> The Tempest</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act01.html"><strong aria-hidden="true">4.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act01/scene01.html"><strong aria-hidden="true">4.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../tempest/act01/scene02.html"><strong aria-hidden="true">4.1.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act02.html"><strong aria-hidden="true">4.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act02/scene01.html"><strong aria-hidden="true">4.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../tempest/act02/scene02.html"><strong aria-hidden="true">4.2.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act03.html"><strong aria-hidden="true">4.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act03/scene01.html"><strong aria-hidden="true">4.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../tempest/act03/scene02.html"><strong aria-hidden="true">4.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../tempest/act03/scene03.html"><strong aria-hidden="true">4.3.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act04.html"><strong aria-hidden="true">4.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act04/scene01.html"><strong aria-hidden="true">4.4.1.</strong> SCENE I</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act05.html"><strong aria-hidden="true">4.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act05/scene01.html"><strong aria-hidden="true">4.5.1.</strong> SCENE I</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../richard.html"><strong aria-hidden="true">5.</strong> Richard II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act02.html"><strong aria-hidden="true">5.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act01/scene01.html"><strong aria-hidden="true">5.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act01/scene02.html"><strong aria-hidden="true">5.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act01/scene03.html"><strong aria-hidden="true">5.1.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act01/scene04.html"><strong aria-hidden="true">5.1.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../richard/act02.html"><strong aria-hidden="true">5.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act02/scene01.html"><strong aria-hidden="true">5.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act02/scene02.html"><strong aria-hidden="true">5.2.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act02/scene03.html"><strong aria-hidden="true">5.2.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act02/scene04.html"><strong aria-hidden="true">5.2.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../richard/act03.html"><strong aria-hidden="true">5.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act03/scene01.html"><strong aria-hidden="true">5.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act03/scene02.html"><strong aria-hidden="true">5.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act03/scene03.html"><strong aria-hidden="true">5.3.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act03/scene04.html"><strong aria-hidden="true">5.3.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../richard/act04.html"><strong aria-hidden="true">5.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act04/scene01.html"><strong aria-hidden="true">5.4.1.</strong> SCENE I</a></li></ol></li><li class="chapter-item "><a href="../../richard/act05.html"><strong aria-hidden="true">5.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act05/scene01.html"><strong aria-hidden="true">5.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act05/scene02.html"><strong aria-hidden="true">5.5.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act05/scene03.html"><strong aria-hidden="true">5.5.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act05/scene04.html"><strong aria-hidden="true">5.5.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../richard/act05/scene05.html"><strong aria-hidden="true">5.5.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../richard/act05/scene06.html"><strong aria-hidden="true">5.5.6.</strong> SCENE VI</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../caesar.html"><strong aria-hidden="true">6.</strong> Julius Caesar</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act01.html"><strong aria-hidden="true">6.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act01/scene01.html"><strong aria-hidden="true">6.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act01/scene02.html"><strong aria-hidden="true">6.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act01/scene03.html"><strong aria-hidden="true">6.1.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act02.html"><strong aria-hidden="true">6.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act02/scene01.html"><strong aria-hidden="true">6.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act02/scene02.html"><strong aria-hidden="true">6.2.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act02/scene03.html"><strong aria-hidden="true">6.2.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../caesar/act02/scene04.html"><strong aria-hidden="true">6.2.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act03.html"><strong aria-hidden="true">6.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act03/scene01.html"><strong aria-hidden="true">6.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act03/scene02.html"><strong aria-hidden="true">6.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act03/scene03.html"><strong aria-hidden="true">6.3.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act04.html"><strong aria-hidden="true">6.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act04/scene01.html"><strong aria-hidden="true">6.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act04/scene02.html"><strong aria-hidden="true">6.4.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act04/scene03.html"><strong aria-hidden="true">6.4.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act05.html"><strong aria-hidden="true">6.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act05/scene01.html"><strong aria-hidden="true">6.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act05/scene02.html"><strong aria-hidden="true">6.5.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act05/scene03.html"><strong aria-hidden="true">6.5.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../caesar/act05/scene04.html"><strong aria-hidden="true">6.5.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../caesar/act05/scene05.html"><strong aria-hidden="true">6.5.5.</strong> SCENE V</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Shakespearean Drama</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2><a class="header" href="#scene-iv" id="scene-iv">SCENE IV</a></h2>
+<h3><a class="header" href="#the-queens-closet" id="the-queens-closet">The Queen's closet.</a></h3>
+<blockquote>
+<p><em>Enter QUEEN GERTRUDE and POLONIUS</em></p>
+</blockquote>
+<p><span id="speech1"><strong>LORD POLONIUS</strong></span></p>
+<blockquote>
+<p><span id="3.4.1">He will come straight. Look you lay home to
+him:</span><br />
+<span id="3.4.2">Tell him his pranks have been too broad to bear
+with,</span><br />
+<span id="3.4.3">And that your grace hath screen'd and stood
+between</span><br />
+<span id="3.4.4">Much heat and him. I'll sconce me even here.</span><br />
+<span id="3.4.5">Pray you, be round with him.</span></p>
+</blockquote>
+<p><span id="speech2"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.6">[Within] Mother, mother, mother!</span></p>
+</blockquote>
+<p><span id="speech3"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.7">I'll warrant you,</span><br />
+<span id="3.4.8">Fear me not: withdraw, I hear him coming.</span></p>
+<p><em>POLONIUS hides behind the arras</em></p>
+<p><em>Enter HAMLET</em></p>
+</blockquote>
+<p><span id="speech4"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.9">Now, mother, what's the matter?</span></p>
+</blockquote>
+<p><span id="speech5"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.10">Hamlet, thou hast thy father much offended.</span></p>
+</blockquote>
+<p><span id="speech6"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.11">Mother, you have my father much offended.</span></p>
+</blockquote>
+<p><span id="speech7"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.12">Come, come, you answer with an idle tongue.</span></p>
+</blockquote>
+<p><span id="speech8"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.13">Go, go, you question with a wicked tongue.</span></p>
+</blockquote>
+<p><span id="speech9"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.14">Why, how now, Hamlet!</span></p>
+</blockquote>
+<p><span id="speech10"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.15">What's the matter now?</span></p>
+</blockquote>
+<p><span id="speech11"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.16">Have you forgot me?</span></p>
+</blockquote>
+<p><span id="speech12"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.17">No, by the rood, not so:</span><br />
+<span id="3.4.18">You are the queen, your husband's brother's
+wife;</span><br />
+<span id="3.4.19">And--would it were not so!--you are my
+mother.</span></p>
+</blockquote>
+<p><span id="speech13"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.20">Nay, then, I'll set those to you that can
+speak.</span></p>
+</blockquote>
+<p><span id="speech14"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.21">Come, come, and sit you down; you shall not
+budge;</span><br />
+<span id="3.4.22">You go not till I set you up a glass</span><br />
+<span id="3.4.23">Where you may see the inmost part of you.</span></p>
+</blockquote>
+<p><span id="speech15"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.24">What wilt thou do? thou wilt not murder me?</span><br />
+<span id="3.4.25">Help, help, ho!</span></p>
+</blockquote>
+<p><span id="speech16"><strong>LORD POLONIUS</strong></span></p>
+<blockquote>
+<p><span id="3.4.26">[Behind] What, ho! help, help, help!</span></p>
+</blockquote>
+<p><span id="speech17"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.27">[Drawing] How now! a rat? Dead, for a ducat,
+dead!</span></p>
+<p><em>Makes a pass through the arras</em></p>
+</blockquote>
+<p><span id="speech18"><strong>LORD POLONIUS</strong></span></p>
+<blockquote>
+<p><span id="3.4.28">[Behind] O, I am slain!</span></p>
+<p><em>Falls and dies</em></p>
+</blockquote>
+<p><span id="speech19"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.29">O me, what hast thou done?</span></p>
+</blockquote>
+<p><span id="speech20"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.30">Nay, I know not:</span><br />
+<span id="3.4.31">Is it the king?</span></p>
+</blockquote>
+<p><span id="speech21"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.32">O, what a rash and bloody deed is this!</span></p>
+</blockquote>
+<p><span id="speech22"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.33">A bloody deed! almost as bad, good mother,</span><br />
+<span id="3.4.34">As kill a king, and marry with his brother.</span></p>
+</blockquote>
+<p><span id="speech23"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.35">As kill a king!</span></p>
+</blockquote>
+<p><span id="speech24"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.36">Ay, lady, 'twas my word.</span></p>
+<p><em>Lifts up the array and discovers POLONIUS</em></p>
+<p><span id="3.4.37">Thou wretched, rash, intruding fool,
+farewell!</span><br />
+<span id="3.4.38">I took thee for thy better: take thy
+fortune;</span><br />
+<span id="3.4.39">Thou find'st to be too busy is some danger.</span><br />
+<span id="3.4.40">Leave wringing of your hands: peace! sit you
+down,</span><br />
+<span id="3.4.41">And let me wring your heart; for so I
+shall,</span><br />
+<span id="3.4.42">If it be made of penetrable stuff,</span><br />
+<span id="3.4.43">If damned custom have not brass'd it so</span><br />
+<span id="3.4.44">That it is proof and bulwark against sense.</span></p>
+</blockquote>
+<p><span id="speech25"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.45">What have I done, that thou darest wag thy
+tongue</span><br />
+<span id="3.4.46">In noise so rude against me?</span></p>
+</blockquote>
+<p><span id="speech26"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.47">Such an act</span><br />
+<span id="3.4.48">That blurs the grace and blush of modesty,</span><br />
+<span id="3.4.49">Calls virtue hypocrite, takes off the rose</span><br />
+<span id="3.4.50">From the fair forehead of an innocent love</span><br />
+<span id="3.4.51">And sets a blister there, makes
+marriage-vows</span><br />
+<span id="3.4.52">As false as dicers' oaths: O, such a deed</span><br />
+<span id="3.4.53">As from the body of contraction plucks</span><br />
+<span id="3.4.54">The very soul, and sweet religion makes</span><br />
+<span id="3.4.55">A rhapsody of words: heaven's face doth
+glow:</span><br />
+<span id="3.4.56">Yea, this solidity and compound mass,</span><br />
+<span id="3.4.57">With tristful visage, as against the doom,</span><br />
+<span id="3.4.58">Is thought-sick at the act.</span></p>
+</blockquote>
+<p><span id="speech27"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.59">Ay me, what act,</span><br />
+<span id="3.4.60">That roars so loud, and thunders in the
+index?</span></p>
+</blockquote>
+<p><span id="speech28"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.61">Look here, upon this picture, and on this,</span><br />
+<span id="3.4.62">The counterfeit presentment of two
+brothers.</span><br />
+<span id="3.4.63">See, what a grace was seated on this brow;</span><br />
+<span id="3.4.64">Hyperion's curls; the front of Jove
+himself;</span><br />
+<span id="3.4.65">An eye like Mars, to threaten and command;</span><br />
+<span id="3.4.66">A station like the herald Mercury</span><br />
+<span id="3.4.67">New-lighted on a heaven-kissing hill;</span><br />
+<span id="3.4.68">A combination and a form indeed,</span><br />
+<span id="3.4.69">Where every god did seem to set his seal,</span><br />
+<span id="3.4.70">To give the world assurance of a man:</span><br />
+<span id="3.4.71">This was your husband. Look you now, what
+follows:</span><br />
+<span id="3.4.72">Here is your husband; like a mildew'd ear,</span><br />
+<span id="3.4.73">Blasting his wholesome brother. Have you
+eyes?</span><br />
+<span id="3.4.74">Could you on this fair mountain leave to
+feed,</span><br />
+<span id="3.4.75">And batten on this moor? Ha! have you eyes?</span><br />
+<span id="3.4.76">You cannot call it love; for at your age</span><br />
+<span id="3.4.77">The hey-day in the blood is tame, it's
+humble,</span><br />
+<span id="3.4.78">And waits upon the judgment: and what
+judgment</span><br />
+<span id="3.4.79">Would step from this to this? Sense, sure, you
+have,</span><br />
+<span id="3.4.80">Else could you not have motion; but sure, that
+sense</span><br />
+<span id="3.4.81">Is apoplex'd; for madness would not err,</span><br />
+<span id="3.4.82">Nor sense to ecstasy was ne'er so thrall'd</span><br />
+<span id="3.4.83">But it reserved some quantity of choice,</span><br />
+<span id="3.4.84">To serve in such a difference. What devil
+was't</span><br />
+<span id="3.4.85">That thus hath cozen'd you at
+hoodman-blind?</span><br />
+<span id="3.4.86">Eyes without feeling, feeling without
+sight,</span><br />
+<span id="3.4.87">Ears without hands or eyes, smelling sans
+all,</span><br />
+<span id="3.4.88">Or but a sickly part of one true sense</span><br />
+<span id="3.4.89">Could not so mope.</span><br />
+<span id="3.4.90">O shame! where is thy blush? Rebellious
+hell,</span><br />
+<span id="3.4.91">If thou canst mutine in a matron's bones,</span><br />
+<span id="3.4.92">To flaming youth let virtue be as wax,</span><br />
+<span id="3.4.93">And melt in her own fire: proclaim no shame</span><br />
+<span id="3.4.94">When the compulsive ardour gives the
+charge,</span><br />
+<span id="3.4.95">Since frost itself as actively doth burn</span><br />
+<span id="3.4.96">And reason panders will.</span></p>
+</blockquote>
+<p><span id="speech29"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.97">O Hamlet, speak no more:</span><br />
+<span id="3.4.98">Thou turn'st mine eyes into my very soul;</span><br />
+<span id="3.4.99">And there I see such black and grained
+spots</span><br />
+<span id="3.4.100">As will not leave their tinct.</span></p>
+</blockquote>
+<p><span id="speech30"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.101">Nay, but to live</span><br />
+<span id="3.4.102">In the rank sweat of an enseamed bed,</span><br />
+<span id="3.4.103">Stew'd in corruption, honeying and making
+love</span><br />
+<span id="3.4.104">Over the nasty sty,--</span></p>
+</blockquote>
+<p><span id="speech31"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.105">O, speak to me no more;</span><br />
+<span id="3.4.106">These words, like daggers, enter in mine
+ears;</span><br />
+<span id="3.4.107">No more, sweet Hamlet!</span></p>
+</blockquote>
+<p><span id="speech32"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.108">A murderer and a villain;</span><br />
+<span id="3.4.109">A slave that is not twentieth part the
+tithe</span><br />
+<span id="3.4.110">Of your precedent lord; a vice of kings;</span><br />
+<span id="3.4.111">A cutpurse of the empire and the rule,</span><br />
+<span id="3.4.112">That from a shelf the precious diadem
+stole,</span><br />
+<span id="3.4.113">And put it in his pocket!</span></p>
+</blockquote>
+<p><span id="speech33"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.114">No more!</span></p>
+</blockquote>
+<p><span id="speech34"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.115">A king of shreds and patches,--</span></p>
+<p><em>Enter Ghost</em></p>
+<p><span id="3.4.116">Save me, and hover o'er me with your
+wings,</span><br />
+<span id="3.4.117">You heavenly guards! What would your gracious
+figure?</span></p>
+</blockquote>
+<p><span id="speech35"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.118">Alas, he's mad!</span></p>
+</blockquote>
+<p><span id="speech36"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.119">Do you not come your tardy son to chide,</span><br />
+<span id="3.4.120">That, lapsed in time and passion, lets go
+by</span><br />
+<span id="3.4.121">The important acting of your dread command? O,
+say!</span></p>
+</blockquote>
+<p><span id="speech37"><strong>Ghost</strong></span></p>
+<blockquote>
+<p><span id="3.4.122">Do not forget: this visitation</span><br />
+<span id="3.4.123">Is but to whet thy almost blunted purpose.</span><br />
+<span id="3.4.124">But, look, amazement on thy mother sits:</span><br />
+<span id="3.4.125">O, step between her and her fighting soul:</span><br />
+<span id="3.4.126">Conceit in weakest bodies strongest works:</span><br />
+<span id="3.4.127">Speak to her, Hamlet.</span></p>
+</blockquote>
+<p><span id="speech38"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.128">How is it with you, lady?</span></p>
+</blockquote>
+<p><span id="speech39"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.129">Alas, how is't with you,</span><br />
+<span id="3.4.130">That you do bend your eye on vacancy</span><br />
+<span id="3.4.131">And with the incorporal air do hold
+discourse?</span><br />
+<span id="3.4.132">Forth at your eyes your spirits wildly
+peep;</span><br />
+<span id="3.4.133">And, as the sleeping soldiers in the
+alarm,</span><br />
+<span id="3.4.134">Your bedded hair, like life in excrements,</span><br />
+<span id="3.4.135">Starts up, and stands on end. O gentle
+son,</span><br />
+<span id="3.4.136">Upon the heat and flame of thy distemper</span><br />
+<span id="3.4.137">Sprinkle cool patience. Whereon do you
+look?</span></p>
+</blockquote>
+<p><span id="speech40"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.138">On him, on him! Look you, how pale he
+glares!</span><br />
+<span id="3.4.139">His form and cause conjoin'd, preaching to
+stones,</span><br />
+<span id="3.4.140">Would make them capable. Do not look upon
+me;</span><br />
+<span id="3.4.141">Lest with this piteous action you convert</span><br />
+<span id="3.4.142">My stern effects: then what I have to do</span><br />
+<span id="3.4.143">Will want true colour; tears perchance for
+blood.</span></p>
+</blockquote>
+<p><span id="speech41"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.144">To whom do you speak this?</span></p>
+</blockquote>
+<p><span id="speech42"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.145">Do you see nothing there?</span></p>
+</blockquote>
+<p><span id="speech43"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.146">Nothing at all; yet all that is I see.</span></p>
+</blockquote>
+<p><span id="speech44"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.147">Nor did you nothing hear?</span></p>
+</blockquote>
+<p><span id="speech45"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.148">No, nothing but ourselves.</span></p>
+</blockquote>
+<p><span id="speech46"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.149">Why, look you there! look, how it steals
+away!</span><br />
+<span id="3.4.150">My father, in his habit as he lived!</span><br />
+<span id="3.4.151">Look, where he goes, even now, out at the
+portal!</span></p>
+<p><em>Exit Ghost</em></p>
+</blockquote>
+<p><span id="speech47"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.152">This the very coinage of your brain:</span><br />
+<span id="3.4.153">This bodiless creation ecstasy</span><br />
+<span id="3.4.154">Is very cunning in.</span></p>
+</blockquote>
+<p><span id="speech48"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.155">Ecstasy!</span><br />
+<span id="3.4.156">My pulse, as yours, doth temperately keep
+time,</span><br />
+<span id="3.4.157">And makes as healthful music: it is not
+madness</span><br />
+<span id="3.4.158">That I have utter'd: bring me to the test,</span><br />
+<span id="3.4.159">And I the matter will re-word; which
+madness</span><br />
+<span id="3.4.160">Would gambol from. Mother, for love of
+grace,</span><br />
+<span id="3.4.161">Lay not that mattering unction to your
+soul,</span><br />
+<span id="3.4.162">That not your trespass, but my madness
+speaks:</span><br />
+<span id="3.4.163">It will but skin and film the ulcerous
+place,</span><br />
+<span id="3.4.164">Whilst rank corruption, mining all within,</span><br />
+<span id="3.4.165">Infects unseen. Confess yourself to
+heaven;</span><br />
+<span id="3.4.166">Repent what's past; avoid what is to come;</span><br />
+<span id="3.4.167">And do not spread the compost on the
+weeds,</span><br />
+<span id="3.4.168">To make them ranker. Forgive me this my
+virtue;</span><br />
+<span id="3.4.169">For in the fatness of these pursy times</span><br />
+<span id="3.4.170">Virtue itself of vice must pardon beg,</span><br />
+<span id="3.4.171">Yea, curb and woo for leave to do him
+good.</span></p>
+</blockquote>
+<p><span id="speech49"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.172">O Hamlet, thou hast cleft my heart in
+twain.</span></p>
+</blockquote>
+<p><span id="speech50"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.173">O, throw away the worser part of it,</span><br />
+<span id="3.4.174">And live the purer with the other half.</span><br />
+<span id="3.4.175">Good night: but go not to mine uncle's
+bed;</span><br />
+<span id="3.4.176">Assume a virtue, if you have it not.</span><br />
+<span id="3.4.177">That monster, custom, who all sense doth
+eat,</span><br />
+<span id="3.4.178">Of habits devil, is angel yet in this,</span><br />
+<span id="3.4.179">That to the use of actions fair and good</span><br />
+<span id="3.4.180">He likewise gives a frock or livery,</span><br />
+<span id="3.4.181">That aptly is put on. Refrain to-night,</span><br />
+<span id="3.4.182">And that shall lend a kind of easiness</span><br />
+<span id="3.4.183">To the next abstinence: the next more
+easy;</span><br />
+<span id="3.4.184">For use almost can change the stamp of
+nature,</span><br />
+<span id="3.4.185">And either [ ] the devil, or throw him
+out</span><br />
+<span id="3.4.186">With wondrous potency. Once more, good
+night:</span><br />
+<span id="3.4.187">And when you are desirous to be bless'd,</span><br />
+<span id="3.4.188">I'll blessing beg of you. For this same
+lord,</span></p>
+<p><em>Pointing to POLONIUS</em></p>
+<p><span id="3.4.189">I do repent: but heaven hath pleased it
+so,</span><br />
+<span id="3.4.190">To punish me with this and this with me,</span><br />
+<span id="3.4.191">That I must be their scourge and minister.</span><br />
+<span id="3.4.192">I will bestow him, and will answer well</span><br />
+<span id="3.4.193">The death I gave him. So, again, good
+night.</span><br />
+<span id="3.4.194">I must be cruel, only to be kind:</span><br />
+<span id="3.4.195">Thus bad begins and worse remains behind.</span><br />
+<span id="3.4.196">One word more, good lady.</span></p>
+</blockquote>
+<p><span id="speech51"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.197">What shall I do?</span></p>
+</blockquote>
+<p><span id="speech52"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.198">Not this, by no means, that I bid you do:</span><br />
+<span id="3.4.199">Let the bloat king tempt you again to bed;</span><br />
+<span id="3.4.200">Pinch wanton on your cheek; call you his
+mouse;</span><br />
+<span id="3.4.201">And let him, for a pair of reechy kisses,</span><br />
+<span id="3.4.202">Or paddling in your neck with his damn'd
+fingers,</span><br />
+<span id="3.4.203">Make you to ravel all this matter out,</span><br />
+<span id="3.4.204">That I essentially am not in madness,</span><br />
+<span id="3.4.205">But mad in craft. 'Twere good you let him
+know;</span><br />
+<span id="3.4.206">For who, that's but a queen, fair, sober,
+wise,</span><br />
+<span id="3.4.207">Would from a paddock, from a bat, a gib,</span><br />
+<span id="3.4.208">Such dear concernings hide? who would do
+so?</span><br />
+<span id="3.4.209">No, in despite of sense and secrecy,</span><br />
+<span id="3.4.210">Unpeg the basket on the house's top.</span><br />
+<span id="3.4.211">Let the birds fly, and, like the famous
+ape,</span><br />
+<span id="3.4.212">To try conclusions, in the basket creep,</span><br />
+<span id="3.4.213">And break your own neck down.</span></p>
+</blockquote>
+<p><span id="speech53"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.214">Be thou assured, if words be made of
+breath,</span><br />
+<span id="3.4.215">And breath of life, I have no life to
+breathe</span><br />
+<span id="3.4.216">What thou hast said to me.</span></p>
+</blockquote>
+<p><span id="speech54"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.217">I must to England; you know that?</span></p>
+</blockquote>
+<p><span id="speech55"><strong>QUEEN GERTRUDE</strong></span></p>
+<blockquote>
+<p><span id="3.4.218">Alack,</span><br />
+<span id="3.4.219">I had forgot: 'tis so concluded on.</span></p>
+</blockquote>
+<p><span id="speech56"><strong>HAMLET</strong></span></p>
+<blockquote>
+<p><span id="3.4.220">There's letters seal'd: and my two
+schoolfellows,</span><br />
+<span id="3.4.221">Whom I will trust as I will adders fang'd,</span><br />
+<span id="3.4.222">They bear the mandate; they must sweep my
+way,</span><br />
+<span id="3.4.223">And marshal me to knavery. Let it work;</span><br />
+<span id="3.4.224">For 'tis the sport to have the engineer</span><br />
+<span id="3.4.225">Hoist with his own petard: and 't shall go
+hard</span><br />
+<span id="3.4.226">But I will delve one yard below their
+mines,</span><br />
+<span id="3.4.227">And blow them at the moon: O, 'tis most
+sweet,</span><br />
+<span id="3.4.228">When in one line two crafts directly meet.</span><br />
+<span id="3.4.229">This man shall set me packing:</span><br />
+<span id="3.4.230">I'll lug the guts into the neighbour room.</span><br />
+<span id="3.4.231">Mother, good night. Indeed this counsellor</span><br />
+<span id="3.4.232">Is now most still, most secret and most
+grave,</span><br />
+<span id="3.4.233">Who was in life a foolish prating knave.</span><br />
+<span id="3.4.234">Come, sir, to draw toward an end with you.</span><br />
+<span id="3.4.235">Good night, mother.</span></p>
+<p><em>Exeunt severally; HAMLET dragging in POLONIUS</em></p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../hamlet/act03/scene03.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../hamlet/act04.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../hamlet/act03/scene03.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../hamlet/act04.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

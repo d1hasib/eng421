@@ -1,0 +1,932 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>SCENE I - Shakespearean Drama</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../overview.html">Overview</a></li><li class="chapter-item "><a href="../../dream.html"><strong aria-hidden="true">1.</strong> A Midsummer Night's Dream</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act01.html"><strong aria-hidden="true">1.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act01/scene01.html"><strong aria-hidden="true">1.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act01/scene02.html"><strong aria-hidden="true">1.1.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act02.html"><strong aria-hidden="true">1.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act02/scene01.html"><strong aria-hidden="true">1.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act02/scene02.html"><strong aria-hidden="true">1.2.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act03.html"><strong aria-hidden="true">1.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act03/scene01.html"><strong aria-hidden="true">1.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act03/scene02.html"><strong aria-hidden="true">1.3.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act04.html"><strong aria-hidden="true">1.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act04/scene01.html"><strong aria-hidden="true">1.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act04/scene02.html"><strong aria-hidden="true">1.4.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act05.html"><strong aria-hidden="true">1.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act05/scene01.html"><strong aria-hidden="true">1.5.1.</strong> SCENE I</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../macbeth.html"><strong aria-hidden="true">2.</strong> Macbeth</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act01.html"><strong aria-hidden="true">2.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act01/scene01.html"><strong aria-hidden="true">2.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene02.html"><strong aria-hidden="true">2.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene03.html"><strong aria-hidden="true">2.1.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene04.html"><strong aria-hidden="true">2.1.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene05.html"><strong aria-hidden="true">2.1.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene06.html"><strong aria-hidden="true">2.1.6.</strong> SCENE VI</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene07.html"><strong aria-hidden="true">2.1.7.</strong> SCENE VII</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act02.html"><strong aria-hidden="true">2.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act02/scene01.html"><strong aria-hidden="true">2.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act02/scene02.html"><strong aria-hidden="true">2.2.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act02/scene03.html"><strong aria-hidden="true">2.2.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act02/scene04.html"><strong aria-hidden="true">2.2.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act03.html"><strong aria-hidden="true">2.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act03/scene01.html"><strong aria-hidden="true">2.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene02.html"><strong aria-hidden="true">2.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene03.html"><strong aria-hidden="true">2.3.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene04.html"><strong aria-hidden="true">2.3.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene05.html"><strong aria-hidden="true">2.3.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene06.html"><strong aria-hidden="true">2.3.6.</strong> SCENE VI</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act04.html"><strong aria-hidden="true">2.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act04/scene01.html"><strong aria-hidden="true">2.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act04/scene02.html"><strong aria-hidden="true">2.4.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act04/scene03.html"><strong aria-hidden="true">2.4.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act05.html"><strong aria-hidden="true">2.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act05/scene01.html"><strong aria-hidden="true">2.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene02.html"><strong aria-hidden="true">2.5.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene03.html"><strong aria-hidden="true">2.5.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene04.html"><strong aria-hidden="true">2.5.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene05.html"><strong aria-hidden="true">2.5.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene06.html"><strong aria-hidden="true">2.5.6.</strong> SCENE VI</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene07.html"><strong aria-hidden="true">2.5.7.</strong> SCENE VII</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene08.html"><strong aria-hidden="true">2.5.8.</strong> SCENE VIII</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../hamlet.html"><strong aria-hidden="true">3.</strong> Hamlet</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act01.html"><strong aria-hidden="true">3.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act01/scene01.html"><strong aria-hidden="true">3.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act01/scene02.html"><strong aria-hidden="true">3.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../hamlet/act01/scene03.html"><strong aria-hidden="true">3.1.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../hamlet/act01/scene04.html"><strong aria-hidden="true">3.1.4.</strong> SCENE V</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act02.html"><strong aria-hidden="true">3.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act02/scene01.html"><strong aria-hidden="true">3.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act02/scene02.html"><strong aria-hidden="true">3.2.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act03.html"><strong aria-hidden="true">3.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act03/scene01.html"><strong aria-hidden="true">3.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act03/scene02.html"><strong aria-hidden="true">3.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../hamlet/act03/scene03.html"><strong aria-hidden="true">3.3.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../hamlet/act03/scene04.html"><strong aria-hidden="true">3.3.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act04.html"><strong aria-hidden="true">3.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act04/scene01.html"><strong aria-hidden="true">3.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene02.html"><strong aria-hidden="true">3.4.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene03.html"><strong aria-hidden="true">3.4.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene04.html"><strong aria-hidden="true">3.4.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene05.html"><strong aria-hidden="true">3.4.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene06.html"><strong aria-hidden="true">3.4.6.</strong> SCENE VI</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene07.html"><strong aria-hidden="true">3.4.7.</strong> SCENE VII</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act05.html"><strong aria-hidden="true">3.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act05/scene01.html"><strong aria-hidden="true">3.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act05/scene02.html"><strong aria-hidden="true">3.5.2.</strong> SCENE II</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../tempest.html"><strong aria-hidden="true">4.</strong> The Tempest</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act01.html"><strong aria-hidden="true">4.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act01/scene01.html"><strong aria-hidden="true">4.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../tempest/act01/scene02.html"><strong aria-hidden="true">4.1.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act02.html"><strong aria-hidden="true">4.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act02/scene01.html"><strong aria-hidden="true">4.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../tempest/act02/scene02.html"><strong aria-hidden="true">4.2.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act03.html"><strong aria-hidden="true">4.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act03/scene01.html"><strong aria-hidden="true">4.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../tempest/act03/scene02.html"><strong aria-hidden="true">4.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../tempest/act03/scene03.html"><strong aria-hidden="true">4.3.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act04.html"><strong aria-hidden="true">4.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act04/scene01.html"><strong aria-hidden="true">4.4.1.</strong> SCENE I</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act05.html"><strong aria-hidden="true">4.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act05/scene01.html"><strong aria-hidden="true">4.5.1.</strong> SCENE I</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../richard.html"><strong aria-hidden="true">5.</strong> Richard II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act02.html"><strong aria-hidden="true">5.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act01/scene01.html"><strong aria-hidden="true">5.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act01/scene02.html"><strong aria-hidden="true">5.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act01/scene03.html"><strong aria-hidden="true">5.1.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act01/scene04.html"><strong aria-hidden="true">5.1.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../richard/act02.html"><strong aria-hidden="true">5.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act02/scene01.html"><strong aria-hidden="true">5.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act02/scene02.html"><strong aria-hidden="true">5.2.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act02/scene03.html"><strong aria-hidden="true">5.2.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act02/scene04.html"><strong aria-hidden="true">5.2.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../richard/act03.html"><strong aria-hidden="true">5.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act03/scene01.html"><strong aria-hidden="true">5.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act03/scene02.html"><strong aria-hidden="true">5.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act03/scene03.html"><strong aria-hidden="true">5.3.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act03/scene04.html"><strong aria-hidden="true">5.3.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../richard/act04.html"><strong aria-hidden="true">5.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act04/scene01.html"><strong aria-hidden="true">5.4.1.</strong> SCENE I</a></li></ol></li><li class="chapter-item "><a href="../../richard/act05.html"><strong aria-hidden="true">5.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act05/scene01.html"><strong aria-hidden="true">5.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act05/scene02.html"><strong aria-hidden="true">5.5.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act05/scene03.html"><strong aria-hidden="true">5.5.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act05/scene04.html"><strong aria-hidden="true">5.5.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../richard/act05/scene05.html"><strong aria-hidden="true">5.5.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../richard/act05/scene06.html"><strong aria-hidden="true">5.5.6.</strong> SCENE VI</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../../caesar.html"><strong aria-hidden="true">6.</strong> Julius Caesar</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act01.html"><strong aria-hidden="true">6.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act01/scene01.html"><strong aria-hidden="true">6.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act01/scene02.html"><strong aria-hidden="true">6.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act01/scene03.html"><strong aria-hidden="true">6.1.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act02.html"><strong aria-hidden="true">6.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act02/scene01.html"><strong aria-hidden="true">6.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act02/scene02.html"><strong aria-hidden="true">6.2.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act02/scene03.html"><strong aria-hidden="true">6.2.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../caesar/act02/scene04.html"><strong aria-hidden="true">6.2.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item expanded "><a href="../../caesar/act03.html"><strong aria-hidden="true">6.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../caesar/act03/scene01.html" class="active"><strong aria-hidden="true">6.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act03/scene02.html"><strong aria-hidden="true">6.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act03/scene03.html"><strong aria-hidden="true">6.3.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act04.html"><strong aria-hidden="true">6.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act04/scene01.html"><strong aria-hidden="true">6.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act04/scene02.html"><strong aria-hidden="true">6.4.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act04/scene03.html"><strong aria-hidden="true">6.4.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act05.html"><strong aria-hidden="true">6.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act05/scene01.html"><strong aria-hidden="true">6.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act05/scene02.html"><strong aria-hidden="true">6.5.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act05/scene03.html"><strong aria-hidden="true">6.5.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../caesar/act05/scene04.html"><strong aria-hidden="true">6.5.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../caesar/act05/scene05.html"><strong aria-hidden="true">6.5.5.</strong> SCENE V</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Shakespearean Drama</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2><a class="header" href="#scene-i" id="scene-i">SCENE I</a></h2>
+<h3><a class="header" href="#rome-before-the-capitol-the-senate-sitting-above" id="rome-before-the-capitol-the-senate-sitting-above">Rome. Before the Capitol; the Senate sitting above.</a></h3>
+<blockquote>
+<p><em>A crowd of people; among them ARTEMIDORUS and the Soothsayer.
+Flourish. Enter CAESAR, BRUTUS, CASSIUS, CASCA, DECIUS BRUTUS,
+METELLUS CIMBER, TREBONIUS, CINNA, ANTONY, LEPIDUS, POPILIUS, PUBLIUS,
+and others</em></p>
+</blockquote>
+<p><span id="speech1"><strong>CAESAR</strong></span></p>
+<blockquote>
+<p><span id="3.1.1">[To the Soothsayer] The ides of March are
+come.</span></p>
+</blockquote>
+<p><span id="speech2"><strong>Soothsayer</strong></span></p>
+<blockquote>
+<p><span id="3.1.2">Ay, Caesar; but not gone.</span></p>
+</blockquote>
+<p><span id="speech3"><strong>ARTEMIDORUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.3">Hail, Caesar! read this schedule.</span></p>
+</blockquote>
+<p><span id="speech4"><strong>DECIUS BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.4">Trebonius doth desire you to o'erread,</span><br />
+<span id="3.1.5">At your best leisure, this his humble suit.</span></p>
+</blockquote>
+<p><span id="speech5"><strong>ARTEMIDORUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.6">O Caesar, read mine first; for mine's a suit</span><br />
+<span id="3.1.7">That touches Caesar nearer: read it, great
+Caesar.</span></p>
+</blockquote>
+<p><span id="speech6"><strong>CAESAR</strong></span></p>
+<blockquote>
+<p><span id="3.1.8">What touches us ourself shall be last
+served.</span></p>
+</blockquote>
+<p><span id="speech7"><strong>ARTEMIDORUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.9">Delay not, Caesar; read it instantly.</span></p>
+</blockquote>
+<p><span id="speech8"><strong>CAESAR</strong></span></p>
+<blockquote>
+<p><span id="3.1.10">What, is the fellow mad?</span></p>
+</blockquote>
+<p><span id="speech9"><strong>PUBLIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.11">Sirrah, give place.</span></p>
+</blockquote>
+<p><span id="speech10"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.12">What, urge you your petitions in the
+street?</span><br />
+<span id="3.1.13">Come to the Capitol.</span></p>
+<p><em>CAESAR goes up to the Senate-House, the rest following</em></p>
+</blockquote>
+<p><span id="speech11"><strong>POPILIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.14">I wish your enterprise to-day may thrive.</span></p>
+</blockquote>
+<p><span id="speech12"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.15">What enterprise, Popilius?</span></p>
+</blockquote>
+<p><span id="speech13"><strong>POPILIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.16">Fare you well.</span></p>
+<p><em>Advances to CAESAR</em></p>
+</blockquote>
+<p><span id="speech14"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.17">What said Popilius Lena?</span></p>
+</blockquote>
+<p><span id="speech15"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.18">He wish'd to-day our enterprise might
+thrive.</span><br />
+<span id="3.1.19">I fear our purpose is discovered.</span></p>
+</blockquote>
+<p><span id="speech16"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.20">Look, how he makes to Caesar; mark him.</span></p>
+</blockquote>
+<p><span id="speech17"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.21">Casca, be sudden, for we fear prevention.</span><br />
+<span id="3.1.22">Brutus, what shall be done? If this be
+known,</span><br />
+<span id="3.1.23">Cassius or Caesar never shall turn back,</span><br />
+<span id="3.1.24">For I will slay myself.</span></p>
+</blockquote>
+<p><span id="speech18"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.25">Cassius, be constant:</span><br />
+<span id="3.1.26">Popilius Lena speaks not of our purposes;</span><br />
+<span id="3.1.27">For, look, he smiles, and Caesar doth not
+change.</span></p>
+</blockquote>
+<p><span id="speech19"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.28">Trebonius knows his time; for, look you,
+Brutus.</span><br />
+<span id="3.1.29">He draws Mark Antony out of the way.</span></p>
+<p><em>Exeunt ANTONY and TREBONIUS</em></p>
+</blockquote>
+<p><span id="speech20"><strong>DECIUS BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.30">Where is Metellus Cimber? Let him go,</span><br />
+<span id="3.1.31">And presently prefer his suit to Caesar.</span></p>
+</blockquote>
+<p><span id="speech21"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.32">He is address'd: press near and second him.</span></p>
+</blockquote>
+<p><span id="speech22"><strong>CINNA</strong></span></p>
+<blockquote>
+<p><span id="3.1.33">Casca, you are the first that rears your
+hand.</span></p>
+</blockquote>
+<p><span id="speech23"><strong>CAESAR</strong></span></p>
+<blockquote>
+<p><span id="3.1.34">Are we all ready? What is now amiss</span><br />
+<span id="3.1.35">That Caesar and his senate must redress?</span></p>
+</blockquote>
+<p><span id="speech24"><strong>METELLUS CIMBER</strong></span></p>
+<blockquote>
+<p><span id="3.1.36">Most high, most mighty, and most puissant
+Caesar,</span><br />
+<span id="3.1.37">Metellus Cimber throws before thy seat</span><br />
+<span id="3.1.38">An humble heart,--</span></p>
+<p><em>Kneeling</em></p>
+</blockquote>
+<p><span id="speech25"><strong>CAESAR</strong></span></p>
+<blockquote>
+<p><span id="3.1.39">I must prevent thee, Cimber.</span><br />
+<span id="3.1.40">These couchings and these lowly courtesies</span><br />
+<span id="3.1.41">Might fire the blood of ordinary men,</span><br />
+<span id="3.1.42">And turn pre-ordinance and first decree</span><br />
+<span id="3.1.43">Into the law of children. Be not fond,</span><br />
+<span id="3.1.44">To think that Caesar bears such rebel blood</span><br />
+<span id="3.1.45">That will be thaw'd from the true quality</span><br />
+<span id="3.1.46">With that which melteth fools; I mean, sweet
+words,</span><br />
+<span id="3.1.47">Low-crooked court'sies and base
+spaniel-fawning.</span><br />
+<span id="3.1.48">Thy brother by decree is banished:</span><br />
+<span id="3.1.49">If thou dost bend and pray and fawn for
+him,</span><br />
+<span id="3.1.50">I spurn thee like a cur out of my way.</span><br />
+<span id="3.1.51">Know, Caesar doth not wrong, nor without
+cause</span><br />
+<span id="3.1.52">Will he be satisfied.</span></p>
+</blockquote>
+<p><span id="speech26"><strong>METELLUS CIMBER</strong></span></p>
+<blockquote>
+<p><span id="3.1.53">Is there no voice more worthy than my own</span><br />
+<span id="3.1.54">To sound more sweetly in great Caesar's ear</span><br />
+<span id="3.1.55">For the repealing of my banish'd brother?</span></p>
+</blockquote>
+<p><span id="speech27"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.56">I kiss thy hand, but not in flattery,
+Caesar;</span><br />
+<span id="3.1.57">Desiring thee that Publius Cimber may</span><br />
+<span id="3.1.58">Have an immediate freedom of repeal.</span></p>
+</blockquote>
+<p><span id="speech28"><strong>CAESAR</strong></span></p>
+<blockquote>
+<p><span id="3.1.59">What, Brutus!</span></p>
+</blockquote>
+<p><span id="speech29"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.60">Pardon, Caesar; Caesar, pardon:</span><br />
+<span id="3.1.61">As low as to thy foot doth Cassius fall,</span><br />
+<span id="3.1.62">To beg enfranchisement for Publius Cimber.</span></p>
+</blockquote>
+<p><span id="speech30"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.63">I could be well moved, if I were as you:</span><br />
+<span id="3.1.64">If I could pray to move, prayers would move
+me:</span><br />
+<span id="3.1.65">But I am constant as the northern star,</span><br />
+<span id="3.1.66">Of whose true-fix'd and resting quality</span><br />
+<span id="3.1.67">There is no fellow in the firmament.</span><br />
+<span id="3.1.68">The skies are painted with unnumber'd
+sparks,</span><br />
+<span id="3.1.69">They are all fire and every one doth shine,</span><br />
+<span id="3.1.70">But there's but one in all doth hold his
+place:</span><br />
+<span id="3.1.71">So in the world; 'tis furnish'd well with
+men,</span><br />
+<span id="3.1.72">And men are flesh and blood, and
+apprehensive;</span><br />
+<span id="3.1.73">Yet in the number I do know but one</span><br />
+<span id="3.1.74">That unassailable holds on his rank,</span><br />
+<span id="3.1.75">Unshaked of motion: and that I am he,</span><br />
+<span id="3.1.76">Let me a little show it, even in this;</span><br />
+<span id="3.1.77">That I was constant Cimber should be
+banish'd,</span><br />
+<span id="3.1.78">And constant do remain to keep him so.</span></p>
+</blockquote>
+<p><span id="speech31"><strong>CINNA</strong></span></p>
+<blockquote>
+<p><span id="3.1.79">O Caesar,--</span></p>
+</blockquote>
+<p><span id="speech32"><strong>CAESAR</strong></span></p>
+<blockquote>
+<p><span id="3.1.80">Hence! wilt thou lift up Olympus?</span></p>
+</blockquote>
+<p><span id="speech33"><strong>DECIUS BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.81">Great Caesar,--</span></p>
+</blockquote>
+<p><span id="speech34"><strong>CAESAR</strong></span></p>
+<blockquote>
+<p><span id="3.1.82">Doth not Brutus bootless kneel?</span></p>
+</blockquote>
+<p><span id="speech35"><strong>CASCA</strong></span></p>
+<blockquote>
+<p><span id="3.1.83">Speak, hands for me!</span></p>
+<p><em>CASCA first, then the other Conspirators and BRUTUS stab CAESAR</em></p>
+</blockquote>
+<p><span id="speech36"><strong>CAESAR</strong></span></p>
+<blockquote>
+<p><span id="3.1.84">Et tu, Brute! Then fall, Caesar.</span></p>
+<p><em>Dies</em></p>
+</blockquote>
+<p><span id="speech37"><strong>CINNA</strong></span></p>
+<blockquote>
+<p><span id="3.1.85">Liberty! Freedom! Tyranny is dead!</span><br />
+<span id="3.1.86">Run hence, proclaim, cry it about the
+streets.</span></p>
+</blockquote>
+<p><span id="speech38"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.87">Some to the common pulpits, and cry out</span><br />
+<span id="3.1.88">'Liberty, freedom, and enfranchisement!'</span></p>
+</blockquote>
+<p><span id="speech39"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.89">People and senators, be not affrighted;</span><br />
+<span id="3.1.90">Fly not; stand stiff: ambition's debt is
+paid.</span></p>
+</blockquote>
+<p><span id="speech40"><strong>CASCA</strong></span></p>
+<blockquote>
+<p><span id="3.1.91">Go to the pulpit, Brutus.</span></p>
+</blockquote>
+<p><span id="speech41"><strong>DECIUS BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.92">And Cassius too.</span></p>
+</blockquote>
+<p><span id="speech42"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.93">Where's Publius?</span></p>
+</blockquote>
+<p><span id="speech43"><strong>CINNA</strong></span></p>
+<blockquote>
+<p><span id="3.1.94">Here, quite confounded with this mutiny.</span></p>
+</blockquote>
+<p><span id="speech44"><strong>METELLUS CIMBER</strong></span></p>
+<blockquote>
+<p><span id="3.1.95">Stand fast together, lest some friend of
+Caesar's</span><br />
+<span id="3.1.96">Should chance--</span></p>
+</blockquote>
+<p><span id="speech45"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.97">Talk not of standing. Publius, good cheer;</span><br />
+<span id="3.1.98">There is no harm intended to your person,</span><br />
+<span id="3.1.99">Nor to no Roman else: so tell them,
+Publius.</span></p>
+</blockquote>
+<p><span id="speech46"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.100">And leave us, Publius; lest that the
+people,</span><br />
+<span id="3.1.101">Rushing on us, should do your age some
+mischief.</span></p>
+</blockquote>
+<p><span id="speech47"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.102">Do so: and let no man abide this deed,</span><br />
+<span id="3.1.103">But we the doers.</span></p>
+<p><em>Re-enter TREBONIUS</em></p>
+</blockquote>
+<p><span id="speech48"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.104">Where is Antony?</span></p>
+</blockquote>
+<p><span id="speech49"><strong>TREBONIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.105">Fled to his house amazed:</span><br />
+<span id="3.1.106">Men, wives and children stare, cry out and
+run</span><br />
+<span id="3.1.107">As it were doomsday.</span></p>
+</blockquote>
+<p><span id="speech50"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.108">Fates, we will know your pleasures:</span><br />
+<span id="3.1.109">That we shall die, we know; 'tis but the
+time</span><br />
+<span id="3.1.110">And drawing days out, that men stand upon.</span></p>
+</blockquote>
+<p><span id="speech51"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.111">Why, he that cuts off twenty years of life</span><br />
+<span id="3.1.112">Cuts off so many years of fearing death.</span></p>
+</blockquote>
+<p><span id="speech52"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.113">Grant that, and then is death a benefit:</span><br />
+<span id="3.1.114">So are we Caesar's friends, that have
+abridged</span><br />
+<span id="3.1.115">His time of fearing death. Stoop, Romans,
+stoop,</span><br />
+<span id="3.1.116">And let us bathe our hands in Caesar's
+blood</span><br />
+<span id="3.1.117">Up to the elbows, and besmear our swords:</span><br />
+<span id="3.1.118">Then walk we forth, even to the
+market-place,</span><br />
+<span id="3.1.119">And, waving our red weapons o'er our
+heads,</span><br />
+<span id="3.1.120">Let's all cry 'Peace, freedom and
+liberty!'</span></p>
+</blockquote>
+<p><span id="speech53"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.121">Stoop, then, and wash. How many ages hence</span><br />
+<span id="3.1.122">Shall this our lofty scene be acted over</span><br />
+<span id="3.1.123">In states unborn and accents yet unknown!</span></p>
+</blockquote>
+<p><span id="speech54"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.124">How many times shall Caesar bleed in
+sport,</span><br />
+<span id="3.1.125">That now on Pompey's basis lies along</span><br />
+<span id="3.1.126">No worthier than the dust!</span></p>
+</blockquote>
+<p><span id="speech55"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.127">So oft as that shall be,</span><br />
+<span id="3.1.128">So often shall the knot of us be call'd</span><br />
+<span id="3.1.129">The men that gave their country liberty.</span></p>
+</blockquote>
+<p><span id="speech56"><strong>DECIUS BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.130">What, shall we forth?</span></p>
+</blockquote>
+<p><span id="speech57"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.131">Ay, every man away:</span><br />
+<span id="3.1.132">Brutus shall lead; and we will grace his
+heels</span><br />
+<span id="3.1.133">With the most boldest and best hearts of
+Rome.</span></p>
+<p><em>Enter a Servant</em></p>
+</blockquote>
+<p><span id="speech58"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.134">Soft! who comes here? A friend of
+Antony's.</span></p>
+</blockquote>
+<p><span id="speech59"><strong>Servant</strong></span></p>
+<blockquote>
+<p><span id="3.1.135">Thus, Brutus, did my master bid me kneel:</span><br />
+<span id="3.1.136">Thus did Mark Antony bid me fall down;</span><br />
+<span id="3.1.137">And, being prostrate, thus he bade me say:</span><br />
+<span id="3.1.138">Brutus is noble, wise, valiant, and
+honest;</span><br />
+<span id="3.1.139">Caesar was mighty, bold, royal, and
+loving:</span><br />
+<span id="3.1.140">Say I love Brutus, and I honour him;</span><br />
+<span id="3.1.141">Say I fear'd Caesar, honour'd him and loved
+him.</span><br />
+<span id="3.1.142">If Brutus will vouchsafe that Antony</span><br />
+<span id="3.1.143">May safely come to him, and be resolved</span><br />
+<span id="3.1.144">How Caesar hath deserved to lie in death,</span><br />
+<span id="3.1.145">Mark Antony shall not love Caesar dead</span><br />
+<span id="3.1.146">So well as Brutus living; but will follow</span><br />
+<span id="3.1.147">The fortunes and affairs of noble Brutus</span><br />
+<span id="3.1.148">Thorough the hazards of this untrod state</span><br />
+<span id="3.1.149">With all true faith. So says my master
+Antony.</span></p>
+</blockquote>
+<p><span id="speech60"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.150">Thy master is a wise and valiant Roman;</span><br />
+<span id="3.1.151">I never thought him worse.</span><br />
+<span id="3.1.152">Tell him, so please him come unto this
+place,</span><br />
+<span id="3.1.153">He shall be satisfied; and, by my honour,</span><br />
+<span id="3.1.154">Depart untouch'd.</span></p>
+</blockquote>
+<p><span id="speech61"><strong>Servant</strong></span></p>
+<blockquote>
+<p><span id="3.1.155">I'll fetch him presently.</span></p>
+<p><em>Exit</em></p>
+</blockquote>
+<p><span id="speech62"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.156">I know that we shall have him well to
+friend.</span></p>
+</blockquote>
+<p><span id="speech63"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.157">I wish we may: but yet have I a mind</span><br />
+<span id="3.1.158">That fears him much; and my misgiving
+still</span><br />
+<span id="3.1.159">Falls shrewdly to the purpose.</span></p>
+</blockquote>
+<p><span id="speech64"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.160">But here comes Antony.</span></p>
+<p><em>Re-enter ANTONY</em></p>
+<p><span id="3.1.161">Welcome, Mark Antony.</span></p>
+</blockquote>
+<p><span id="speech65"><strong>ANTONY</strong></span></p>
+<blockquote>
+<p><span id="3.1.162">O mighty Caesar! dost thou lie so low?</span><br />
+<span id="3.1.163">Are all thy conquests, glories, triumphs,
+spoils,</span><br />
+<span id="3.1.164">Shrunk to this little measure? Fare thee
+well.</span><br />
+<span id="3.1.165">I know not, gentlemen, what you intend,</span><br />
+<span id="3.1.166">Who else must be let blood, who else is
+rank:</span><br />
+<span id="3.1.167">If I myself, there is no hour so fit</span><br />
+<span id="3.1.168">As Caesar's death hour, nor no instrument</span><br />
+<span id="3.1.169">Of half that worth as those your swords, made
+rich</span><br />
+<span id="3.1.170">With the most noble blood of all this
+world.</span><br />
+<span id="3.1.171">I do beseech ye, if you bear me hard,</span><br />
+<span id="3.1.172">Now, whilst your purpled hands do reek and
+smoke,</span><br />
+<span id="3.1.173">Fulfil your pleasure. Live a thousand
+years,</span><br />
+<span id="3.1.174">I shall not find myself so apt to die:</span><br />
+<span id="3.1.175">No place will please me so, no mean of
+death,</span><br />
+<span id="3.1.176">As here by Caesar, and by you cut off,</span><br />
+<span id="3.1.177">The choice and master spirits of this age.</span></p>
+</blockquote>
+<p><span id="speech66"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.178">O Antony, beg not your death of us.</span><br />
+<span id="3.1.179">Though now we must appear bloody and
+cruel,</span><br />
+<span id="3.1.180">As, by our hands and this our present act,</span><br />
+<span id="3.1.181">You see we do, yet see you but our hands</span><br />
+<span id="3.1.182">And this the bleeding business they have
+done:</span><br />
+<span id="3.1.183">Our hearts you see not; they are pitiful;</span><br />
+<span id="3.1.184">And pity to the general wrong of Rome--</span><br />
+<span id="3.1.185">As fire drives out fire, so pity pity--</span><br />
+<span id="3.1.186">Hath done this deed on Caesar. For your
+part,</span><br />
+<span id="3.1.187">To you our swords have leaden points, Mark
+Antony:</span><br />
+<span id="3.1.188">Our arms, in strength of malice, and our
+hearts</span><br />
+<span id="3.1.189">Of brothers' temper, do receive you in</span><br />
+<span id="3.1.190">With all kind love, good thoughts, and
+reverence.</span></p>
+</blockquote>
+<p><span id="speech67"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.191">Your voice shall be as strong as any man's</span><br />
+<span id="3.1.192">In the disposing of new dignities.</span></p>
+</blockquote>
+<p><span id="speech68"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.193">Only be patient till we have appeased</span><br />
+<span id="3.1.194">The multitude, beside themselves with
+fear,</span><br />
+<span id="3.1.195">And then we will deliver you the cause,</span><br />
+<span id="3.1.196">Why I, that did love Caesar when I struck
+him,</span><br />
+<span id="3.1.197">Have thus proceeded.</span></p>
+</blockquote>
+<p><span id="speech69"><strong>ANTONY</strong></span></p>
+<blockquote>
+<p><span id="3.1.198">I doubt not of your wisdom.</span><br />
+<span id="3.1.199">Let each man render me his bloody hand:</span><br />
+<span id="3.1.200">First, Marcus Brutus, will I shake with
+you;</span><br />
+<span id="3.1.201">Next, Caius Cassius, do I take your hand;</span><br />
+<span id="3.1.202">Now, Decius Brutus, yours: now yours,
+Metellus;</span><br />
+<span id="3.1.203">Yours, Cinna; and, my valiant Casca,
+yours;</span><br />
+<span id="3.1.204">Though last, not last in love, yours, good
+Trebonius.</span><br />
+<span id="3.1.205">Gentlemen all,--alas, what shall I say?</span><br />
+<span id="3.1.206">My credit now stands on such slippery
+ground,</span><br />
+<span id="3.1.207">That one of two bad ways you must conceit
+me,</span><br />
+<span id="3.1.208">Either a coward or a flatterer.</span><br />
+<span id="3.1.209">That I did love thee, Caesar, O, 'tis
+true:</span><br />
+<span id="3.1.210">If then thy spirit look upon us now,</span><br />
+<span id="3.1.211">Shall it not grieve thee dearer than thy
+death,</span><br />
+<span id="3.1.212">To see thy thy Anthony making his peace,</span><br />
+<span id="3.1.213">Shaking the bloody fingers of thy foes,</span><br />
+<span id="3.1.214">Most noble! in the presence of thy corse?</span><br />
+<span id="3.1.215">Had I as many eyes as thou hast wounds,</span><br />
+<span id="3.1.216">Weeping as fast as they stream forth thy
+blood,</span><br />
+<span id="3.1.217">It would become me better than to close</span><br />
+<span id="3.1.218">In terms of friendship with thine enemies.</span><br />
+<span id="3.1.219">Pardon me, Julius! Here wast thou bay'd, brave
+hart;</span><br />
+<span id="3.1.220">Here didst thou fall; and here thy hunters
+stand,</span><br />
+<span id="3.1.221">Sign'd in thy spoil, and crimson'd in thy
+lethe.</span><br />
+<span id="3.1.222">O world, thou wast the forest to this
+hart;</span><br />
+<span id="3.1.223">And this, indeed, O world, the heart of
+thee.</span><br />
+<span id="3.1.224">How like a deer, strucken by many princes,</span><br />
+<span id="3.1.225">Dost thou here lie!</span></p>
+</blockquote>
+<p><span id="speech70"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.226">Mark Antony,--</span></p>
+</blockquote>
+<p><span id="speech71"><strong>ANTONY</strong></span></p>
+<blockquote>
+<p><span id="3.1.227">Pardon me, Caius Cassius:</span><br />
+<span id="3.1.228">The enemies of Caesar shall say this;</span><br />
+<span id="3.1.229">Then, in a friend, it is cold modesty.</span></p>
+</blockquote>
+<p><span id="speech72"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.230">I blame you not for praising Caesar so;</span><br />
+<span id="3.1.231">But what compact mean you to have with us?</span><br />
+<span id="3.1.232">Will you be prick'd in number of our
+friends;</span><br />
+<span id="3.1.233">Or shall we on, and not depend on you?</span></p>
+</blockquote>
+<p><span id="speech73"><strong>ANTONY</strong></span></p>
+<blockquote>
+<p><span id="3.1.234">Therefore I took your hands, but was,
+indeed,</span><br />
+<span id="3.1.235">Sway'd from the point, by looking down on
+Caesar.</span><br />
+<span id="3.1.236">Friends am I with you all and love you
+all,</span><br />
+<span id="3.1.237">Upon this hope, that you shall give me
+reasons</span><br />
+<span id="3.1.238">Why and wherein Caesar was dangerous.</span></p>
+</blockquote>
+<p><span id="speech74"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.239">Or else were this a savage spectacle:</span><br />
+<span id="3.1.240">Our reasons are so full of good regard</span><br />
+<span id="3.1.241">That were you, Antony, the son of Caesar,</span><br />
+<span id="3.1.242">You should be satisfied.</span></p>
+</blockquote>
+<p><span id="speech75"><strong>ANTONY</strong></span></p>
+<blockquote>
+<p><span id="3.1.243">That's all I seek:</span><br />
+<span id="3.1.244">And am moreover suitor that I may</span><br />
+<span id="3.1.245">Produce his body to the market-place;</span><br />
+<span id="3.1.246">And in the pulpit, as becomes a friend,</span><br />
+<span id="3.1.247">Speak in the order of his funeral.</span></p>
+</blockquote>
+<p><span id="speech76"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.248">You shall, Mark Antony.</span></p>
+</blockquote>
+<p><span id="speech77"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.249">Brutus, a word with you.</span></p>
+<p><em>Aside to BRUTUS</em></p>
+<p><span id="3.1.250">You know not what you do: do not consent</span><br />
+<span id="3.1.251">That Antony speak in his funeral:</span><br />
+<span id="3.1.252">Know you how much the people may be moved</span><br />
+<span id="3.1.253">By that which he will utter?</span></p>
+</blockquote>
+<p><span id="speech78"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.254">By your pardon;</span><br />
+<span id="3.1.255">I will myself into the pulpit first,</span><br />
+<span id="3.1.256">And show the reason of our Caesar's death:</span><br />
+<span id="3.1.257">What Antony shall speak, I will protest</span><br />
+<span id="3.1.258">He speaks by leave and by permission,</span><br />
+<span id="3.1.259">And that we are contented Caesar shall</span><br />
+<span id="3.1.260">Have all true rites and lawful ceremonies.</span><br />
+<span id="3.1.261">It shall advantage more than do us wrong.</span></p>
+</blockquote>
+<p><span id="speech79"><strong>CASSIUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.262">I know not what may fall; I like it not.</span></p>
+</blockquote>
+<p><span id="speech80"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.263">Mark Antony, here, take you Caesar's body.</span><br />
+<span id="3.1.264">You shall not in your funeral speech blame
+us,</span><br />
+<span id="3.1.265">But speak all good you can devise of
+Caesar,</span><br />
+<span id="3.1.266">And say you do't by our permission;</span><br />
+<span id="3.1.267">Else shall you not have any hand at all</span><br />
+<span id="3.1.268">About his funeral: and you shall speak</span><br />
+<span id="3.1.269">In the same pulpit whereto I am going,</span><br />
+<span id="3.1.270">After my speech is ended.</span></p>
+</blockquote>
+<p><span id="speech81"><strong>ANTONY</strong></span></p>
+<blockquote>
+<p><span id="3.1.271">Be it so.</span><br />
+<span id="3.1.272">I do desire no more.</span></p>
+</blockquote>
+<p><span id="speech82"><strong>BRUTUS</strong></span></p>
+<blockquote>
+<p><span id="3.1.273">Prepare the body then, and follow us.</span></p>
+<p><em>Exeunt all but ANTONY</em></p>
+</blockquote>
+<p><span id="speech83"><strong>ANTONY</strong></span></p>
+<blockquote>
+<p><span id="3.1.274">O, pardon me, thou bleeding piece of
+earth,</span><br />
+<span id="3.1.275">That I am meek and gentle with these
+butchers!</span><br />
+<span id="3.1.276">Thou art the ruins of the noblest man</span><br />
+<span id="3.1.277">That ever lived in the tide of times.</span><br />
+<span id="3.1.278">Woe to the hand that shed this costly
+blood!</span><br />
+<span id="3.1.279">Over thy wounds now do I prophesy,--</span><br />
+<span id="3.1.280">Which, like dumb mouths, do ope their ruby
+lips,</span><br />
+<span id="3.1.281">To beg the voice and utterance of my
+tongue--</span><br />
+<span id="3.1.282">A curse shall light upon the limbs of men;</span><br />
+<span id="3.1.283">Domestic fury and fierce civil strife</span><br />
+<span id="3.1.284">Shall cumber all the parts of Italy;</span><br />
+<span id="3.1.285">Blood and destruction shall be so in use</span><br />
+<span id="3.1.286">And dreadful objects so familiar</span><br />
+<span id="3.1.287">That mothers shall but smile when they
+behold</span><br />
+<span id="3.1.288">Their infants quarter'd with the hands of
+war;</span><br />
+<span id="3.1.289">All pity choked with custom of fell deeds:</span><br />
+<span id="3.1.290">And Caesar's spirit, ranging for revenge,</span><br />
+<span id="3.1.291">With Ate by his side come hot from hell,</span><br />
+<span id="3.1.292">Shall in these confines with a monarch's
+voice</span><br />
+<span id="3.1.293">Cry 'Havoc,' and let slip the dogs of war;</span><br />
+<span id="3.1.294">That this foul deed shall smell above the
+earth</span><br />
+<span id="3.1.295">With carrion men, groaning for burial.</span></p>
+<p><em>Enter a Servant</em></p>
+<p><span id="3.1.296">You serve Octavius Caesar, do you not?</span></p>
+</blockquote>
+<p><span id="speech84"><strong>Servant</strong></span></p>
+<blockquote>
+<p><span id="3.1.297">I do, Mark Antony.</span></p>
+</blockquote>
+<p><span id="speech85"><strong>ANTONY</strong></span></p>
+<blockquote>
+<p><span id="3.1.298">Caesar did write for him to come to Rome.</span></p>
+</blockquote>
+<p><span id="speech86"><strong>Servant</strong></span></p>
+<blockquote>
+<p><span id="3.1.299">He did receive his letters, and is coming;</span><br />
+<span id="3.1.300">And bid me say to you by word of mouth--</span><br />
+<span id="3.1.301">O Caesar!--</span></p>
+<p><em>Seeing the body</em></p>
+</blockquote>
+<p><span id="speech87"><strong>ANTONY</strong></span></p>
+<blockquote>
+<p><span id="3.1.302">Thy heart is big, get thee apart and weep.</span><br />
+<span id="3.1.303">Passion, I see, is catching; for mine
+eyes,</span><br />
+<span id="3.1.304">Seeing those beads of sorrow stand in
+thine,</span><br />
+<span id="3.1.305">Began to water. Is thy master coming?</span></p>
+</blockquote>
+<p><span id="speech88"><strong>Servant</strong></span></p>
+<blockquote>
+<p><span id="3.1.306">He lies to-night within seven leagues of
+Rome.</span></p>
+</blockquote>
+<p><span id="speech89"><strong>ANTONY</strong></span></p>
+<blockquote>
+<p><span id="3.1.307">Post back with speed, and tell him what hath
+chanced:</span><br />
+<span id="3.1.308">Here is a mourning Rome, a dangerous Rome,</span><br />
+<span id="3.1.309">No Rome of safety for Octavius yet;</span><br />
+<span id="3.1.310">Hie hence, and tell him so. Yet, stay
+awhile;</span><br />
+<span id="3.1.311">Thou shalt not back till I have borne this
+corse</span><br />
+<span id="3.1.312">Into the market-place: there shall I try</span><br />
+<span id="3.1.313">In my oration, how the people take</span><br />
+<span id="3.1.314">The cruel issue of these bloody men;</span><br />
+<span id="3.1.315">According to the which, thou shalt
+discourse</span><br />
+<span id="3.1.316">To young Octavius of the state of things.</span><br />
+<span id="3.1.317">Lend me your hand.</span></p>
+<p><em>Exeunt with CAESAR's body</em></p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../caesar/act03.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../caesar/act03/scene02.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../caesar/act03.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../caesar/act03/scene02.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>

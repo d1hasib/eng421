@@ -1,0 +1,716 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>SCENE I - Shakespearean Drama</title>
+        
+        
+
+
+        <!-- Custom HTML head -->
+        
+
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+        
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../overview.html">Overview</a></li><li class="chapter-item expanded "><a href="../../dream.html"><strong aria-hidden="true">1.</strong> A Midsummer Night's Dream</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../dream/act01.html"><strong aria-hidden="true">1.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../dream/act01/scene01.html" class="active"><strong aria-hidden="true">1.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act01/scene02.html"><strong aria-hidden="true">1.1.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act02.html"><strong aria-hidden="true">1.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act02/scene01.html"><strong aria-hidden="true">1.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act02/scene02.html"><strong aria-hidden="true">1.2.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act03.html"><strong aria-hidden="true">1.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act03/scene01.html"><strong aria-hidden="true">1.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act03/scene02.html"><strong aria-hidden="true">1.3.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act04.html"><strong aria-hidden="true">1.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act04/scene01.html"><strong aria-hidden="true">1.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../dream/act04/scene02.html"><strong aria-hidden="true">1.4.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../dream/act05.html"><strong aria-hidden="true">1.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../dream/act05/scene01.html"><strong aria-hidden="true">1.5.1.</strong> SCENE I</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../macbeth.html"><strong aria-hidden="true">2.</strong> Macbeth</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act01.html"><strong aria-hidden="true">2.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act01/scene01.html"><strong aria-hidden="true">2.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene02.html"><strong aria-hidden="true">2.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene03.html"><strong aria-hidden="true">2.1.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene04.html"><strong aria-hidden="true">2.1.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene05.html"><strong aria-hidden="true">2.1.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene06.html"><strong aria-hidden="true">2.1.6.</strong> SCENE VI</a></li><li class="chapter-item "><a href="../../macbeth/act01/scene07.html"><strong aria-hidden="true">2.1.7.</strong> SCENE VII</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act02.html"><strong aria-hidden="true">2.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act02/scene01.html"><strong aria-hidden="true">2.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act02/scene02.html"><strong aria-hidden="true">2.2.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act02/scene03.html"><strong aria-hidden="true">2.2.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act02/scene04.html"><strong aria-hidden="true">2.2.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act03.html"><strong aria-hidden="true">2.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act03/scene01.html"><strong aria-hidden="true">2.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene02.html"><strong aria-hidden="true">2.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene03.html"><strong aria-hidden="true">2.3.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene04.html"><strong aria-hidden="true">2.3.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene05.html"><strong aria-hidden="true">2.3.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../macbeth/act03/scene06.html"><strong aria-hidden="true">2.3.6.</strong> SCENE VI</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act04.html"><strong aria-hidden="true">2.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act04/scene01.html"><strong aria-hidden="true">2.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act04/scene02.html"><strong aria-hidden="true">2.4.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act04/scene03.html"><strong aria-hidden="true">2.4.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../macbeth/act05.html"><strong aria-hidden="true">2.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../macbeth/act05/scene01.html"><strong aria-hidden="true">2.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene02.html"><strong aria-hidden="true">2.5.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene03.html"><strong aria-hidden="true">2.5.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene04.html"><strong aria-hidden="true">2.5.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene05.html"><strong aria-hidden="true">2.5.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene06.html"><strong aria-hidden="true">2.5.6.</strong> SCENE VI</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene07.html"><strong aria-hidden="true">2.5.7.</strong> SCENE VII</a></li><li class="chapter-item "><a href="../../macbeth/act05/scene08.html"><strong aria-hidden="true">2.5.8.</strong> SCENE VIII</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../hamlet.html"><strong aria-hidden="true">3.</strong> Hamlet</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act01.html"><strong aria-hidden="true">3.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act01/scene01.html"><strong aria-hidden="true">3.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act01/scene02.html"><strong aria-hidden="true">3.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../hamlet/act01/scene03.html"><strong aria-hidden="true">3.1.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../hamlet/act01/scene04.html"><strong aria-hidden="true">3.1.4.</strong> SCENE V</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act02.html"><strong aria-hidden="true">3.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act02/scene01.html"><strong aria-hidden="true">3.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act02/scene02.html"><strong aria-hidden="true">3.2.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act03.html"><strong aria-hidden="true">3.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act03/scene01.html"><strong aria-hidden="true">3.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act03/scene02.html"><strong aria-hidden="true">3.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../hamlet/act03/scene03.html"><strong aria-hidden="true">3.3.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../hamlet/act03/scene04.html"><strong aria-hidden="true">3.3.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act04.html"><strong aria-hidden="true">3.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act04/scene01.html"><strong aria-hidden="true">3.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene02.html"><strong aria-hidden="true">3.4.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene03.html"><strong aria-hidden="true">3.4.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene04.html"><strong aria-hidden="true">3.4.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene05.html"><strong aria-hidden="true">3.4.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene06.html"><strong aria-hidden="true">3.4.6.</strong> SCENE VI</a></li><li class="chapter-item "><a href="../../hamlet/act04/scene07.html"><strong aria-hidden="true">3.4.7.</strong> SCENE VII</a></li></ol></li><li class="chapter-item "><a href="../../hamlet/act05.html"><strong aria-hidden="true">3.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../hamlet/act05/scene01.html"><strong aria-hidden="true">3.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../hamlet/act05/scene02.html"><strong aria-hidden="true">3.5.2.</strong> SCENE II</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../tempest.html"><strong aria-hidden="true">4.</strong> The Tempest</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act01.html"><strong aria-hidden="true">4.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act01/scene01.html"><strong aria-hidden="true">4.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../tempest/act01/scene02.html"><strong aria-hidden="true">4.1.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act02.html"><strong aria-hidden="true">4.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act02/scene01.html"><strong aria-hidden="true">4.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../tempest/act02/scene02.html"><strong aria-hidden="true">4.2.2.</strong> SCENE II</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act03.html"><strong aria-hidden="true">4.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act03/scene01.html"><strong aria-hidden="true">4.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../tempest/act03/scene02.html"><strong aria-hidden="true">4.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../tempest/act03/scene03.html"><strong aria-hidden="true">4.3.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act04.html"><strong aria-hidden="true">4.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act04/scene01.html"><strong aria-hidden="true">4.4.1.</strong> SCENE I</a></li></ol></li><li class="chapter-item "><a href="../../tempest/act05.html"><strong aria-hidden="true">4.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../tempest/act05/scene01.html"><strong aria-hidden="true">4.5.1.</strong> SCENE I</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../richard.html"><strong aria-hidden="true">5.</strong> Richard II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act02.html"><strong aria-hidden="true">5.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act01/scene01.html"><strong aria-hidden="true">5.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act01/scene02.html"><strong aria-hidden="true">5.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act01/scene03.html"><strong aria-hidden="true">5.1.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act01/scene04.html"><strong aria-hidden="true">5.1.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../richard/act02.html"><strong aria-hidden="true">5.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act02/scene01.html"><strong aria-hidden="true">5.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act02/scene02.html"><strong aria-hidden="true">5.2.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act02/scene03.html"><strong aria-hidden="true">5.2.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act02/scene04.html"><strong aria-hidden="true">5.2.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../richard/act03.html"><strong aria-hidden="true">5.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act03/scene01.html"><strong aria-hidden="true">5.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act03/scene02.html"><strong aria-hidden="true">5.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act03/scene03.html"><strong aria-hidden="true">5.3.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act03/scene04.html"><strong aria-hidden="true">5.3.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../richard/act04.html"><strong aria-hidden="true">5.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act04/scene01.html"><strong aria-hidden="true">5.4.1.</strong> SCENE I</a></li></ol></li><li class="chapter-item "><a href="../../richard/act05.html"><strong aria-hidden="true">5.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../richard/act05/scene01.html"><strong aria-hidden="true">5.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../richard/act05/scene02.html"><strong aria-hidden="true">5.5.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../richard/act05/scene03.html"><strong aria-hidden="true">5.5.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../richard/act05/scene04.html"><strong aria-hidden="true">5.5.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../richard/act05/scene05.html"><strong aria-hidden="true">5.5.5.</strong> SCENE V</a></li><li class="chapter-item "><a href="../../richard/act05/scene06.html"><strong aria-hidden="true">5.5.6.</strong> SCENE VI</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../caesar.html"><strong aria-hidden="true">6.</strong> Julius Caesar</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act01.html"><strong aria-hidden="true">6.1.</strong> ACT I</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act01/scene01.html"><strong aria-hidden="true">6.1.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act01/scene02.html"><strong aria-hidden="true">6.1.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act01/scene03.html"><strong aria-hidden="true">6.1.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act02.html"><strong aria-hidden="true">6.2.</strong> ACT II</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act02/scene01.html"><strong aria-hidden="true">6.2.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act02/scene02.html"><strong aria-hidden="true">6.2.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act02/scene03.html"><strong aria-hidden="true">6.2.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../caesar/act02/scene04.html"><strong aria-hidden="true">6.2.4.</strong> SCENE IV</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act03.html"><strong aria-hidden="true">6.3.</strong> ACT III</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act03/scene01.html"><strong aria-hidden="true">6.3.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act03/scene02.html"><strong aria-hidden="true">6.3.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act03/scene03.html"><strong aria-hidden="true">6.3.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act04.html"><strong aria-hidden="true">6.4.</strong> ACT IV</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act04/scene01.html"><strong aria-hidden="true">6.4.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act04/scene02.html"><strong aria-hidden="true">6.4.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act04/scene03.html"><strong aria-hidden="true">6.4.3.</strong> SCENE III</a></li></ol></li><li class="chapter-item "><a href="../../caesar/act05.html"><strong aria-hidden="true">6.5.</strong> ACT V</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../caesar/act05/scene01.html"><strong aria-hidden="true">6.5.1.</strong> SCENE I</a></li><li class="chapter-item "><a href="../../caesar/act05/scene02.html"><strong aria-hidden="true">6.5.2.</strong> SCENE II</a></li><li class="chapter-item "><a href="../../caesar/act05/scene03.html"><strong aria-hidden="true">6.5.3.</strong> SCENE III</a></li><li class="chapter-item "><a href="../../caesar/act05/scene04.html"><strong aria-hidden="true">6.5.4.</strong> SCENE IV</a></li><li class="chapter-item "><a href="../../caesar/act05/scene05.html"><strong aria-hidden="true">6.5.5.</strong> SCENE V</a></li></ol></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">Shakespearean Drama</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2><a class="header" href="#scene-i" id="scene-i">SCENE I</a></h2>
+<h3><a class="header" href="#athens-the-palace-of-theseus" id="athens-the-palace-of-theseus">Athens. The palace of THESEUS.</a></h3>
+<blockquote>
+<p><em>Enter THESEUS, HIPPOLYTA, PHILOSTRATE, and Attendants</em></p>
+</blockquote>
+<p><span id="speech1"><strong>THESEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.1">Now, fair Hippolyta, our nuptial hour</span><br />
+<span id="1.1.2">Draws on apace; four happy days bring in</span><br />
+<span id="1.1.3">Another moon: but, O, methinks, how slow</span><br />
+<span id="1.1.4">This old moon wanes! she lingers my desires,</span><br />
+<span id="1.1.5">Like to a step-dame or a dowager</span><br />
+<span id="1.1.6">Long withering out a young man revenue.</span></p>
+</blockquote>
+<p><span id="speech2"><strong>HIPPOLYTA</strong></span></p>
+<blockquote>
+<p><span id="1.1.7">Four days will quickly steep themselves in
+night;</span><br />
+<span id="1.1.8">Four nights will quickly dream away the
+time;</span><br />
+<span id="1.1.9">And then the moon, like to a silver bow</span><br />
+<span id="1.1.10">New-bent in heaven, shall behold the night</span><br />
+<span id="1.1.11">Of our solemnities.</span></p>
+</blockquote>
+<p><span id="speech3"><strong>THESEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.12">Go, Philostrate,</span><br />
+<span id="1.1.13">Stir up the Athenian youth to merriments;</span><br />
+<span id="1.1.14">Awake the pert and nimble spirit of mirth;</span><br />
+<span id="1.1.15">Turn melancholy forth to funerals;</span><br />
+<span id="1.1.16">The pale companion is not for our pomp.</span></p>
+<p><em>Exit PHILOSTRATE</em></p>
+<p><span id="1.1.17">Hippolyta, I woo'd thee with my sword,</span><br />
+<span id="1.1.18">And won thy love, doing thee injuries;</span><br />
+<span id="1.1.19">But I will wed thee in another key,</span><br />
+<span id="1.1.20">With pomp, with triumph and with revelling.</span></p>
+<p><em>Enter EGEUS, HERMIA, LYSANDER, and DEMETRIUS</em></p>
+</blockquote>
+<p><span id="speech4"><strong>EGEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.21">Happy be Theseus, our renowned duke!</span></p>
+</blockquote>
+<p><span id="speech5"><strong>THESEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.22">Thanks, good Egeus: what's the news with
+thee?</span></p>
+</blockquote>
+<p><span id="speech6"><strong>EGEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.23">Full of vexation come I, with complaint</span><br />
+<span id="1.1.24">Against my child, my daughter Hermia.</span><br />
+<span id="1.1.25">Stand forth, Demetrius. My noble lord,</span><br />
+<span id="1.1.26">This man hath my consent to marry her.</span><br />
+<span id="1.1.27">Stand forth, Lysander: and my gracious
+duke,</span><br />
+<span id="1.1.28">This man hath bewitch'd the bosom of my
+child;</span><br />
+<span id="1.1.29">Thou, thou, Lysander, thou hast given her
+rhymes,</span><br />
+<span id="1.1.30">And interchanged love-tokens with my child:</span><br />
+<span id="1.1.31">Thou hast by moonlight at her window sung,</span><br />
+<span id="1.1.32">With feigning voice verses of feigning
+love,</span><br />
+<span id="1.1.33">And stolen the impression of her fantasy</span><br />
+<span id="1.1.34">With bracelets of thy hair, rings, gawds,
+conceits,</span><br />
+<span id="1.1.35">Knacks, trifles, nosegays, sweetmeats,
+messengers</span><br />
+<span id="1.1.36">Of strong prevailment in unharden'd youth:</span><br />
+<span id="1.1.37">With cunning hast thou filch'd my daughter's
+heart,</span><br />
+<span id="1.1.38">Turn'd her obedience, which is due to me,</span><br />
+<span id="1.1.39">To stubborn harshness: and, my gracious
+duke,</span><br />
+<span id="1.1.40">Be it so she; will not here before your
+grace</span><br />
+<span id="1.1.41">Consent to marry with Demetrius,</span><br />
+<span id="1.1.42">I beg the ancient privilege of Athens,</span><br />
+<span id="1.1.43">As she is mine, I may dispose of her:</span><br />
+<span id="1.1.44">Which shall be either to this gentleman</span><br />
+<span id="1.1.45">Or to her death, according to our law</span><br />
+<span id="1.1.46">Immediately provided in that case.</span></p>
+</blockquote>
+<p><span id="speech7"><strong>THESEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.47">What say you, Hermia? be advised fair maid:</span><br />
+<span id="1.1.48">To you your father should be as a god;</span><br />
+<span id="1.1.49">One that composed your beauties, yea, and
+one</span><br />
+<span id="1.1.50">To whom you are but as a form in wax</span><br />
+<span id="1.1.51">By him imprinted and within his power</span><br />
+<span id="1.1.52">To leave the figure or disfigure it.</span><br />
+<span id="1.1.53">Demetrius is a worthy gentleman.</span></p>
+</blockquote>
+<p><span id="speech8"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.54">So is Lysander.</span></p>
+</blockquote>
+<p><span id="speech9"><strong>THESEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.55">In himself he is;</span><br />
+<span id="1.1.56">But in this kind, wanting your father's
+voice,</span><br />
+<span id="1.1.57">The other must be held the worthier.</span></p>
+</blockquote>
+<p><span id="speech10"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.58">I would my father look'd but with my eyes.</span></p>
+</blockquote>
+<p><span id="speech11"><strong>THESEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.59">Rather your eyes must with his judgment
+look.</span></p>
+</blockquote>
+<p><span id="speech12"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.60">I do entreat your grace to pardon me.</span><br />
+<span id="1.1.61">I know not by what power I am made bold,</span><br />
+<span id="1.1.62">Nor how it may concern my modesty,</span><br />
+<span id="1.1.63">In such a presence here to plead my
+thoughts;</span><br />
+<span id="1.1.64">But I beseech your grace that I may know</span><br />
+<span id="1.1.65">The worst that may befall me in this case,</span><br />
+<span id="1.1.66">If I refuse to wed Demetrius.</span></p>
+</blockquote>
+<p><span id="speech13"><strong>THESEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.67">Either to die the death or to abjure</span><br />
+<span id="1.1.68">For ever the society of men.</span><br />
+<span id="1.1.69">Therefore, fair Hermia, question your
+desires;</span><br />
+<span id="1.1.70">Know of your youth, examine well your
+blood,</span><br />
+<span id="1.1.71">Whether, if you yield not to your father's
+choice,</span><br />
+<span id="1.1.72">You can endure the livery of a nun,</span><br />
+<span id="1.1.73">For aye to be in shady cloister mew'd,</span><br />
+<span id="1.1.74">To live a barren sister all your life,</span><br />
+<span id="1.1.75">Chanting faint hymns to the cold fruitless
+moon.</span><br />
+<span id="1.1.76">Thrice-blessed they that master so their
+blood,</span><br />
+<span id="1.1.77">To undergo such maiden pilgrimage;</span><br />
+<span id="1.1.78">But earthlier happy is the rose distill'd,</span><br />
+<span id="1.1.79">Than that which withering on the virgin
+thorn</span><br />
+<span id="1.1.80">Grows, lives and dies in single
+blessedness.</span></p>
+</blockquote>
+<p><span id="speech14"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.81">So will I grow, so live, so die, my lord,</span><br />
+<span id="1.1.82">Ere I will my virgin patent up</span><br />
+<span id="1.1.83">Unto his lordship, whose unwished yoke</span><br />
+<span id="1.1.84">My soul consents not to give sovereignty.</span></p>
+</blockquote>
+<p><span id="speech15"><strong>THESEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.85">Take time to pause; and, by the next new
+moon--</span><br />
+<span id="1.1.86">The sealing-day betwixt my love and me,</span><br />
+<span id="1.1.87">For everlasting bond of fellowship--</span><br />
+<span id="1.1.88">Upon that day either prepare to die</span><br />
+<span id="1.1.89">For disobedience to your father's will,</span><br />
+<span id="1.1.90">Or else to wed Demetrius, as he would;</span><br />
+<span id="1.1.91">Or on Diana's altar to protest</span><br />
+<span id="1.1.92">For aye austerity and single life.</span></p>
+</blockquote>
+<p><span id="speech16"><strong>DEMETRIUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.93">Relent, sweet Hermia: and, Lysander, yield</span><br />
+<span id="1.1.94">Thy crazed title to my certain right.</span></p>
+</blockquote>
+<p><span id="speech17"><strong>LYSANDER</strong></span></p>
+<blockquote>
+<p><span id="1.1.95">You have her father's love, Demetrius;</span><br />
+<span id="1.1.96">Let me have Hermia's: do you marry him.</span></p>
+</blockquote>
+<p><span id="speech18"><strong>EGEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.97">Scornful Lysander! true, he hath my love,</span><br />
+<span id="1.1.98">And what is mine my love shall render him.</span><br />
+<span id="1.1.99">And she is mine, and all my right of her</span><br />
+<span id="1.1.100">I do estate unto Demetrius.</span></p>
+</blockquote>
+<p><span id="speech19"><strong>LYSANDER</strong></span></p>
+<blockquote>
+<p><span id="1.1.101">I am, my lord, as well derived as he,</span><br />
+<span id="1.1.102">As well possess'd; my love is more than
+his;</span><br />
+<span id="1.1.103">My fortunes every way as fairly rank'd,</span><br />
+<span id="1.1.104">If not with vantage, as Demetrius';</span><br />
+<span id="1.1.105">And, which is more than all these boasts can
+be,</span><br />
+<span id="1.1.106">I am beloved of beauteous Hermia:</span><br />
+<span id="1.1.107">Why should not I then prosecute my right?</span><br />
+<span id="1.1.108">Demetrius, I'll avouch it to his head,</span><br />
+<span id="1.1.109">Made love to Nedar's daughter, Helena,</span><br />
+<span id="1.1.110">And won her soul; and she, sweet lady,
+dotes,</span><br />
+<span id="1.1.111">Devoutly dotes, dotes in idolatry,</span><br />
+<span id="1.1.112">Upon this spotted and inconstant man.</span></p>
+</blockquote>
+<p><span id="speech20"><strong>THESEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.113">I must confess that I have heard so much,</span><br />
+<span id="1.1.114">And with Demetrius thought to have spoke
+thereof;</span><br />
+<span id="1.1.115">But, being over-full of self-affairs,</span><br />
+<span id="1.1.116">My mind did lose it. But, Demetrius, come;</span><br />
+<span id="1.1.117">And come, Egeus; you shall go with me,</span><br />
+<span id="1.1.118">I have some private schooling for you
+both.</span><br />
+<span id="1.1.119">For you, fair Hermia, look you arm
+yourself</span><br />
+<span id="1.1.120">To fit your fancies to your father's will;</span><br />
+<span id="1.1.121">Or else the law of Athens yields you up--</span><br />
+<span id="1.1.122">Which by no means we may extenuate--</span><br />
+<span id="1.1.123">To death, or to a vow of single life.</span><br />
+<span id="1.1.124">Come, my Hippolyta: what cheer, my love?</span><br />
+<span id="1.1.125">Demetrius and Egeus, go along:</span><br />
+<span id="1.1.126">I must employ you in some business</span><br />
+<span id="1.1.127">Against our nuptial and confer with you</span><br />
+<span id="1.1.128">Of something nearly that concerns
+yourselves.</span></p>
+</blockquote>
+<p><span id="speech21"><strong>EGEUS</strong></span></p>
+<blockquote>
+<p><span id="1.1.129">With duty and desire we follow you.</span></p>
+<p><em>Exeunt all but LYSANDER and HERMIA</em></p>
+</blockquote>
+<p><span id="speech22"><strong>LYSANDER</strong></span></p>
+<blockquote>
+<p><span id="1.1.130">How now, my love! why is your cheek so
+pale?</span><br />
+<span id="1.1.131">How chance the roses there do fade so
+fast?</span></p>
+</blockquote>
+<p><span id="speech23"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.132">Belike for want of rain, which I could
+well</span><br />
+<span id="1.1.133">Beteem them from the tempest of my eyes.</span></p>
+</blockquote>
+<p><span id="speech24"><strong>LYSANDER</strong></span></p>
+<blockquote>
+<p><span id="1.1.134">Ay me! for aught that I could ever read,</span><br />
+<span id="1.1.135">Could ever hear by tale or history,</span><br />
+<span id="1.1.136">The course of true love never did run
+smooth;</span><br />
+<span id="1.1.137">But, either it was different in blood,--</span></p>
+</blockquote>
+<p><span id="speech25"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.138">O cross! too high to be enthrall'd to low.</span></p>
+</blockquote>
+<p><span id="speech26"><strong>LYSANDER</strong></span></p>
+<blockquote>
+<p><span id="1.1.139">Or else misgraffed in respect of years,--</span></p>
+</blockquote>
+<p><span id="speech27"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.140">O spite! too old to be engaged to young.</span></p>
+</blockquote>
+<p><span id="speech28"><strong>LYSANDER</strong></span></p>
+<blockquote>
+<p><span id="1.1.141">Or else it stood upon the choice of
+friends,--</span></p>
+</blockquote>
+<p><span id="speech29"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.142">O hell! to choose love by another's eyes.</span></p>
+</blockquote>
+<p><span id="speech30"><strong>LYSANDER</strong></span></p>
+<blockquote>
+<p><span id="1.1.143">Or, if there were a sympathy in choice,</span><br />
+<span id="1.1.144">War, death, or sickness did lay siege to
+it,</span><br />
+<span id="1.1.145">Making it momentany as a sound,</span><br />
+<span id="1.1.146">Swift as a shadow, short as any dream;</span><br />
+<span id="1.1.147">Brief as the lightning in the collied
+night,</span><br />
+<span id="1.1.148">That, in a spleen, unfolds both heaven and
+earth,</span><br />
+<span id="1.1.149">And ere a man hath power to say 'Behold!'</span><br />
+<span id="1.1.150">The jaws of darkness do devour it up:</span><br />
+<span id="1.1.151">So quick bright things come to confusion.</span></p>
+</blockquote>
+<p><span id="speech31"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.152">If then true lovers have been ever
+cross'd,</span><br />
+<span id="1.1.153">It stands as an edict in destiny:</span><br />
+<span id="1.1.154">Then let us teach our trial patience,</span><br />
+<span id="1.1.155">Because it is a customary cross,</span><br />
+<span id="1.1.156">As due to love as thoughts and dreams and
+sighs,</span><br />
+<span id="1.1.157">Wishes and tears, poor fancy's followers.</span></p>
+</blockquote>
+<p><span id="speech32"><strong>LYSANDER</strong></span></p>
+<blockquote>
+<p><span id="1.1.158">A good persuasion: therefore, hear me,
+Hermia.</span><br />
+<span id="1.1.159">I have a widow aunt, a dowager</span><br />
+<span id="1.1.160">Of great revenue, and she hath no child:</span><br />
+<span id="1.1.161">From Athens is her house remote seven
+leagues;</span><br />
+<span id="1.1.162">And she respects me as her only son.</span><br />
+<span id="1.1.163">There, gentle Hermia, may I marry thee;</span><br />
+<span id="1.1.164">And to that place the sharp Athenian law</span><br />
+<span id="1.1.165">Cannot pursue us. If thou lovest me then,</span><br />
+<span id="1.1.166">Steal forth thy father's house to-morrow
+night;</span><br />
+<span id="1.1.167">And in the wood, a league without the
+town,</span><br />
+<span id="1.1.168">Where I did meet thee once with Helena,</span><br />
+<span id="1.1.169">To do observance to a morn of May,</span><br />
+<span id="1.1.170">There will I stay for thee.</span></p>
+</blockquote>
+<p><span id="speech33"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.171">My good Lysander!</span><br />
+<span id="1.1.172">I swear to thee, by Cupid's strongest bow,</span><br />
+<span id="1.1.173">By his best arrow with the golden head,</span><br />
+<span id="1.1.174">By the simplicity of Venus' doves,</span><br />
+<span id="1.1.175">By that which knitteth souls and prospers
+loves,</span><br />
+<span id="1.1.176">And by that fire which burn'd the Carthage
+queen,</span><br />
+<span id="1.1.177">When the false Troyan under sail was seen,</span><br />
+<span id="1.1.178">By all the vows that ever men have broke,</span><br />
+<span id="1.1.179">In number more than ever women spoke,</span><br />
+<span id="1.1.180">In that same place thou hast appointed me,</span><br />
+<span id="1.1.181">To-morrow truly will I meet with thee.</span></p>
+</blockquote>
+<p><span id="speech34"><strong>LYSANDER</strong></span></p>
+<blockquote>
+<p><span id="1.1.182">Keep promise, love. Look, here comes
+Helena.</span></p>
+<p><em>Enter HELENA</em></p>
+</blockquote>
+<p><span id="speech35"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.183">God speed fair Helena! whither away?</span></p>
+</blockquote>
+<p><span id="speech36"><strong>HELENA</strong></span></p>
+<blockquote>
+<p><span id="1.1.184">Call you me fair? that fair again unsay.</span><br />
+<span id="1.1.185">Demetrius loves your fair: O happy fair!</span><br />
+<span id="1.1.186">Your eyes are lode-stars; and your tongue's sweet
+air</span><br />
+<span id="1.1.187">More tuneable than lark to shepherd's ear,</span><br />
+<span id="1.1.188">When wheat is green, when hawthorn buds
+appear.</span><br />
+<span id="1.1.189">Sickness is catching: O, were favour so,</span><br />
+<span id="1.1.190">Yours would I catch, fair Hermia, ere I
+go;</span><br />
+<span id="1.1.191">My ear should catch your voice, my eye your
+eye,</span><br />
+<span id="1.1.192">My tongue should catch your tongue's sweet
+melody.</span><br />
+<span id="1.1.193">Were the world mine, Demetrius being
+bated,</span><br />
+<span id="1.1.194">The rest I'd give to be to you translated.</span><br />
+<span id="1.1.195">O, teach me how you look, and with what
+art</span><br />
+<span id="1.1.196">You sway the motion of Demetrius' heart.</span></p>
+</blockquote>
+<p><span id="speech37"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.197">I frown upon him, yet he loves me still.</span></p>
+</blockquote>
+<p><span id="speech38"><strong>HELENA</strong></span></p>
+<blockquote>
+<p><span id="1.1.198">O that your frowns would teach my smiles such
+skill!</span></p>
+</blockquote>
+<p><span id="speech39"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.199">I give him curses, yet he gives me love.</span></p>
+</blockquote>
+<p><span id="speech40"><strong>HELENA</strong></span></p>
+<blockquote>
+<p><span id="1.1.200">O that my prayers could such affection
+move!</span></p>
+</blockquote>
+<p><span id="speech41"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.201">The more I hate, the more he follows me.</span></p>
+</blockquote>
+<p><span id="speech42"><strong>HELENA</strong></span></p>
+<blockquote>
+<p><span id="1.1.202">The more I love, the more he hateth me.</span></p>
+</blockquote>
+<p><span id="speech43"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.203">His folly, Helena, is no fault of mine.</span></p>
+</blockquote>
+<p><span id="speech44"><strong>HELENA</strong></span></p>
+<blockquote>
+<p><span id="1.1.204">None, but your beauty: would that fault were
+mine!</span></p>
+</blockquote>
+<p><span id="speech45"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.205">Take comfort: he no more shall see my
+face;</span><br />
+<span id="1.1.206">Lysander and myself will fly this place.</span><br />
+<span id="1.1.207">Before the time I did Lysander see,</span><br />
+<span id="1.1.208">Seem'd Athens as a paradise to me:</span><br />
+<span id="1.1.209">O, then, what graces in my love do dwell,</span><br />
+<span id="1.1.210">That he hath turn'd a heaven unto a hell!</span></p>
+</blockquote>
+<p><span id="speech46"><strong>LYSANDER</strong></span></p>
+<blockquote>
+<p><span id="1.1.211">Helen, to you our minds we will unfold:</span><br />
+<span id="1.1.212">To-morrow night, when Phoebe doth behold</span><br />
+<span id="1.1.213">Her silver visage in the watery glass,</span><br />
+<span id="1.1.214">Decking with liquid pearl the bladed
+grass,</span><br />
+<span id="1.1.215">A time that lovers' flights doth still
+conceal,</span><br />
+<span id="1.1.216">Through Athens' gates have we devised to
+steal.</span></p>
+</blockquote>
+<p><span id="speech47"><strong>HERMIA</strong></span></p>
+<blockquote>
+<p><span id="1.1.217">And in the wood, where often you and I</span><br />
+<span id="1.1.218">Upon faint primrose-beds were wont to lie,</span><br />
+<span id="1.1.219">Emptying our bosoms of their counsel
+sweet,</span><br />
+<span id="1.1.220">There my Lysander and myself shall meet;</span><br />
+<span id="1.1.221">And thence from Athens turn away our eyes,</span><br />
+<span id="1.1.222">To seek new friends and stranger
+companies.</span><br />
+<span id="1.1.223">Farewell, sweet playfellow: pray thou for
+us;</span><br />
+<span id="1.1.224">And good luck grant thee thy Demetrius!</span><br />
+<span id="1.1.225">Keep word, Lysander: we must starve our
+sight</span><br />
+<span id="1.1.226">From lovers' food till morrow deep
+midnight.</span></p>
+</blockquote>
+<p><span id="speech48"><strong>LYSANDER</strong></span></p>
+<blockquote>
+<p><span id="1.1.227">I will, my Hermia.</span></p>
+<p><em>Exit HERMIA</em></p>
+<p><span id="1.1.228">Helena, adieu:</span><br />
+<span id="1.1.229">As you on him, Demetrius dote on you!</span></p>
+<p><em>Exit</em></p>
+</blockquote>
+<p><span id="speech49"><strong>HELENA</strong></span></p>
+<blockquote>
+<p><span id="1.1.230">How happy some o'er other some can be!</span><br />
+<span id="1.1.231">Through Athens I am thought as fair as
+she.</span><br />
+<span id="1.1.232">But what of that? Demetrius thinks not so;</span><br />
+<span id="1.1.233">He will not know what all but he do know:</span><br />
+<span id="1.1.234">And as he errs, doting on Hermia's eyes,</span><br />
+<span id="1.1.235">So I, admiring of his qualities:</span><br />
+<span id="1.1.236">Things base and vile, folding no quantity,</span><br />
+<span id="1.1.237">Love can transpose to form and dignity:</span><br />
+<span id="1.1.238">Love looks not with the eyes, but with the
+mind;</span><br />
+<span id="1.1.239">And therefore is wing'd Cupid painted
+blind:</span><br />
+<span id="1.1.240">Nor hath Love's mind of any judgement
+taste;</span><br />
+<span id="1.1.241">Wings and no eyes figure unheedy haste:</span><br />
+<span id="1.1.242">And therefore is Love said to be a child,</span><br />
+<span id="1.1.243">Because in choice he is so oft beguiled.</span><br />
+<span id="1.1.244">As waggish boys in game themselves
+forswear,</span><br />
+<span id="1.1.245">So the boy Love is perjured every where:</span><br />
+<span id="1.1.246">For ere Demetrius look'd on Hermia's eyne,</span><br />
+<span id="1.1.247">He hail'd down oaths that he was only
+mine;</span><br />
+<span id="1.1.248">And when this hail some heat from Hermia
+felt,</span><br />
+<span id="1.1.249">So he dissolved, and showers of oaths did
+melt.</span><br />
+<span id="1.1.250">I will go tell him of fair Hermia's
+flight:</span><br />
+<span id="1.1.251">Then to the wood will he to-morrow night</span><br />
+<span id="1.1.252">Pursue her; and for this intelligence</span><br />
+<span id="1.1.253">If I have thanks, it is a dear expense:</span><br />
+<span id="1.1.254">But herein mean I to enrich my pain,</span><br />
+<span id="1.1.255">To have his sight thither and back again.</span></p>
+<p><em>Exit</em></p>
+</blockquote>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+                            <a rel="prev" href="../../dream/act01.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        
+
+                        
+                            <a rel="next" href="../../dream/act01/scene02.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+                    <a rel="prev" href="../../dream/act01.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                
+
+                
+                    <a rel="next" href="../../dream/act01/scene02.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+
+        
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+        
+
+        
+
+        
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+
+        
+
+    </body>
+</html>
